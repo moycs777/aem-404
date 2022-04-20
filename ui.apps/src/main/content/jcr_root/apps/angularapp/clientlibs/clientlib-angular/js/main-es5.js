@@ -51,7 +51,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<router-outlet></router-outlet>\r\n";
+    __webpack_exports__["default"] = "<app-img-box></app-img-box>\n<router-outlet></router-outlet>\n";
     /***/
   },
 
@@ -71,7 +71,27 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<div>\r\n  <p>Minha propriedade de texto: {{text}}</p>\r\n  <p>Meu checkbox está: {{checkbox ? \"marcado\" : \"desmarcado\"}}</p>\r\n</div>";
+    __webpack_exports__["default"] = "<div>\n  <p>404 test Minha propriedade de texto: {{text}}</p>\n  <p>Meu checkbox está: {{checkbox ? \"marcado\" : \"desmarcado\"}}</p>\n</div>";
+    /***/
+  },
+
+  /***/
+  "./node_modules/raw-loader/dist/cjs.js!./src/app/components/img-box/img-box.component.html":
+  /*!*************************************************************************************************!*\
+    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/img-box/img-box.component.html ***!
+    \*************************************************************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function node_modulesRawLoaderDistCjsJsSrcAppComponentsImgBoxImgBoxComponentHtml(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = "<img src=\"/assets/images/scarecrow.png\" alt=\"\" class=\"img-box__images\">\n";
     /***/
   },
 
@@ -91,7 +111,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<aem-page class=\"structure-page\" [attr.data-cq-page-path]=\"path\" [cqPath]=\"path\" [cqItems]=\"items\" [cqItemsOrder]=\"itemsOrder\"></aem-page>\r\n";
+    __webpack_exports__["default"] = "<aem-page class=\"structure-page\" [attr.data-cq-page-path]=\"path\" [cqPath]=\"path\" [cqItems]=\"items\" [cqItemsOrder]=\"itemsOrder\"></aem-page>\n";
     /***/
   },
 
@@ -430,6 +450,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var _components_basic_component_basic_component_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(
     /*! ./components/basic-component/basic-component.component */
     "./src/app/components/basic-component/basic-component.component.ts");
+    /* harmony import */
+
+
+    var _components_img_box_img_box_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(
+    /*! ./components/img-box/img-box.component */
+    "./src/app/components/img-box/img-box.component.ts");
 
     var AppModule = /*#__PURE__*/_createClass(function AppModule() {
       _classCallCheck(this, AppModule);
@@ -441,8 +467,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         provide: _angular_common__WEBPACK_IMPORTED_MODULE_2__["APP_BASE_HREF"],
         useValue: "/"
       }],
-      declarations: [_app_component__WEBPACK_IMPORTED_MODULE_6__["AppComponent"], _components_page_page_component__WEBPACK_IMPORTED_MODULE_9__["PageComponent"], _components_basic_component_basic_component_component__WEBPACK_IMPORTED_MODULE_21__["BasicComponentComponent"]],
-      entryComponents: [_components_page_page_component__WEBPACK_IMPORTED_MODULE_9__["PageComponent"], _components_basic_component_basic_component_component__WEBPACK_IMPORTED_MODULE_21__["BasicComponentComponent"]],
+      declarations: [_app_component__WEBPACK_IMPORTED_MODULE_6__["AppComponent"], _components_page_page_component__WEBPACK_IMPORTED_MODULE_9__["PageComponent"], _components_basic_component_basic_component_component__WEBPACK_IMPORTED_MODULE_21__["BasicComponentComponent"], _components_img_box_img_box_component__WEBPACK_IMPORTED_MODULE_22__["ImgBoxComponent"]],
+      entryComponents: [_components_page_page_component__WEBPACK_IMPORTED_MODULE_9__["PageComponent"], _components_basic_component_basic_component_component__WEBPACK_IMPORTED_MODULE_21__["BasicComponentComponent"], _components_img_box_img_box_component__WEBPACK_IMPORTED_MODULE_22__["ImgBoxComponent"]],
       bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_6__["AppComponent"]]
     })], AppModule);
     /***/
@@ -464,7 +490,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "p {\r\n  color: red;\r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9iYXNpYy1jb21wb25lbnQvYmFzaWMtY29tcG9uZW50LmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxVQUFVO0FBQ1oiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL2Jhc2ljLWNvbXBvbmVudC9iYXNpYy1jb21wb25lbnQuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbInAge1xyXG4gIGNvbG9yOiByZWQ7XHJcbn1cclxuIl19 */";
+    __webpack_exports__["default"] = "p {\n  color: red;\n}\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9iYXNpYy1jb21wb25lbnQvYmFzaWMtY29tcG9uZW50LmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxVQUFVO0FBQ1oiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL2Jhc2ljLWNvbXBvbmVudC9iYXNpYy1jb21wb25lbnQuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbInAge1xuICBjb2xvcjogcmVkO1xufVxuIl19 */";
     /***/
   },
 
@@ -555,6 +581,83 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     "./node_modules/@adobe/aem-angular-editable-components/__ivy_ngcc__/fesm2015/adobe-aem-angular-editable-components.js");
 
     Object(_adobe_aem_angular_editable_components__WEBPACK_IMPORTED_MODULE_0__["MapTo"])("angularapp/components/spa")(_adobe_aem_angular_editable_components__WEBPACK_IMPORTED_MODULE_0__["AEMContainerComponent"]);
+    /***/
+  },
+
+  /***/
+  "./src/app/components/img-box/img-box.component.css":
+  /*!**********************************************************!*\
+    !*** ./src/app/components/img-box/img-box.component.css ***!
+    \**********************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function srcAppComponentsImgBoxImgBoxComponentCss(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvaW1nLWJveC9pbWctYm94LmNvbXBvbmVudC5jc3MifQ== */";
+    /***/
+  },
+
+  /***/
+  "./src/app/components/img-box/img-box.component.ts":
+  /*!*********************************************************!*\
+    !*** ./src/app/components/img-box/img-box.component.ts ***!
+    \*********************************************************/
+
+  /*! exports provided: ImgBoxComponent */
+
+  /***/
+  function srcAppComponentsImgBoxImgBoxComponentTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "ImgBoxComponent", function () {
+      return ImgBoxComponent;
+    });
+    /* harmony import */
+
+
+    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! tslib */
+    "./node_modules/tslib/tslib.es6.js");
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! @angular/core */
+    "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+
+    var ImgBoxComponent = /*#__PURE__*/function () {
+      function ImgBoxComponent() {
+        _classCallCheck(this, ImgBoxComponent);
+      }
+
+      _createClass(ImgBoxComponent, [{
+        key: "ngOnInit",
+        value: function ngOnInit() {}
+      }]);
+
+      return ImgBoxComponent;
+    }();
+
+    ImgBoxComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+      selector: 'app-img-box',
+      template: Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"])(__webpack_require__(
+      /*! raw-loader!./img-box.component.html */
+      "./node_modules/raw-loader/dist/cjs.js!./src/app/components/img-box/img-box.component.html"))["default"],
+      styles: [Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"])(__webpack_require__(
+      /*! ./img-box.component.css */
+      "./src/app/components/img-box/img-box.component.css"))["default"]]
+    })], ImgBoxComponent);
     /***/
   },
 
@@ -1088,7 +1191,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   /***/
   function _(module, exports, __webpack_require__) {
     module.exports = __webpack_require__(
-    /*! C:\Users\eduardo.borges\Documents\AEM\Treinamentos\angularapp\ui.frontend\src\main.ts */
+    /*! C:\Users\moises.palacio\Documents\AEM\Projectos\aem-404\ui.frontend\src\main.ts */
     "./src/main.ts");
     /***/
   }
