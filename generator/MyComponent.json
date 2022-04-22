@@ -8,8 +8,8 @@
     "model-interface-pkg": "com.angularapp.core.models",
     "model-impl-pkg": "com.angularapp.core.models.impl"
   },
-  "name": "basic-component",
-  "title": "Basic Component",
+  "name": "my-component",
+  "title": "My Component",
   "group": "Angular App - Content",
   "type": "components",
   "options": {
@@ -34,6 +34,15 @@
         "type": "textfield",
         "json-expose": true,
         "json-property": "text"
+      },
+      {
+        "field": "checkbox",
+        "type": "checkbox",
+        "json-expose": true,
+        "attributes": {
+          "value": "{Boolean}true",
+          "text": "Meu Checkbox"
+        }
       }
     ]
   }

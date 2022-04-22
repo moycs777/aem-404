@@ -23,7 +23,7 @@ import { AemAngularCoreWcmComponentsSeparatorV1 } from "@adobe/aem-core-componen
 import { AemAngularCoreWcmComponentsAccordionV1 } from "@adobe/aem-core-components-angular-spa/containers/accordion/v1";
 import { AemAngularCoreWcmComponentsLanguageNavigationV1 } from "@adobe/aem-core-components-angular-base/layout/language-navigation/v1";
 import { BasicComponentComponent } from "./components/basic-component/basic-component.component";
-import { ImgBoxComponent } from './components/img-box/img-box.component';
+import { MyComponentComponent } from './components/my-component/my-component.component';
 
 @NgModule({
   imports: [
@@ -43,8 +43,8 @@ import { ImgBoxComponent } from './components/img-box/img-box.component';
     AemAngularCoreWcmComponentsLanguageNavigationV1,
   ],
   providers: [ModelManagerService, { provide: APP_BASE_HREF, useValue: "/" }],
-  declarations: [AppComponent, PageComponent, BasicComponentComponent, ImgBoxComponent],
-  entryComponents: [PageComponent, BasicComponentComponent, ImgBoxComponent],
+  declarations: [AppComponent, PageComponent, BasicComponentComponent, MyComponentComponent],
+  entryComponents: [PageComponent, BasicComponentComponent, MyComponentComponent],
   bootstrap: [AppComponent],
 })
 export class AppModule {}

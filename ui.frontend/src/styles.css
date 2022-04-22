@@ -1,5 +1,4 @@
 /* You can add global styles to this file, and also import other style files */
-
 html,
 body {
   border: 0;
@@ -20,17 +19,17 @@ h3,
 h4,
 h5,
 p {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Space Mono", Helvetica, Arial, sans-serif;
 }
 
-.not-fount__p {
+.text__not-fount {
   position: absolute;
   width: 100%;
   height: 25px;
   left: 77px;
   top: 40px;
 
-  font-family: 'Inconsolata';
+  font-family: 'Inconsolata', Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -40,12 +39,14 @@ p {
 
   color: #333333;
 }
-.img-box__images {
+
+/* scarecrow image */
+.scarecrow {
   width: 70%;
 }
 
-.main-message__text {
-  font-family: 'Space Mono';
+.title-message__text {
+  font-family: 'Space Mono', Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 64px;
@@ -54,8 +55,8 @@ p {
   color: #333333;
 }
 
-.secondary-message__text {
-  font-family: 'Space Mono';
+.text__message {
+  font-family: 'Space Mono', Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -64,7 +65,7 @@ p {
   color: #4F4F4F;
 }
 
-.main-button__black {
+.button__black {
   color: #ffffff;
   position: absolute;
   width: 216px;
