@@ -129,3 +129,11 @@ p {
     font-size: 48px;
   }
 }
+button {
+  color: #ffffff;
+  width: 216px;
+  height: 68px;
+  left: 740px;
+  top: 663px;
+  background: #333333 !important;
+}
