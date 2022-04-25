@@ -32,7 +32,7 @@ webpackEmptyAsyncContext.id = "./$$_lazy_route_resource lazy recursive";
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"main-row\">\r\n    asd\r\n</div>\r\n<!-- <p class=\"text__not-fount\">404 not found</p>\r\n\r\n<app-img-box></app-img-box>\r\n\r\n<h1 class=\"title-message__text\">\r\n    I have bad news for you        \r\n</h1>\r\n\r\n<p class=\"text__message\">\r\n    The page you are looking for might be removed or is temporarily unavailable\r\n</p>\r\n\r\n<button class=\"button__black\">\r\n    Back to homepage\r\n</button> -->\r\n\r\n<router-outlet></router-outlet>\r\n\r\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<!-- <div class=\"main-container\">\r\n    <div class=\"container\">\r\n        <p class=\"text__not-fount\">404 not found</p>\r\n    </div>\r\n\r\n    <div class=\"container margint-top-100\">\r\n        <div class=\"content-container margint-top-100\">\r\n            <img class=\"scarecrow-img\" src=\"assets/images/scarecrow.png\" alt=\"\">\r\n        </div>\r\n        \r\n        <div class=\"content-container\">\r\n            <h1 class=\"title-message__text\">\r\n                I have bad news for you        \r\n            </h1>\r\n            \r\n            <p class=\"text__message\">\r\n                The page you are looking for might be removed or is temporarily unavailable\r\n            </p>\r\n            \r\n            <button class=\"button__black margin-top-40\">\r\n                Back to homepage\r\n            </button>\r\n        </div>   \r\n    </div>\r\n</div> -->\r\n\r\n<router-outlet></router-outlet>\r\n");
 
 /***/ }),
 

@@ -27,18 +27,14 @@ p {
 .main-container {
   display: block;
 }
-/* scare-crow container */
-.scarecrow-container {
-  margin-top: 280px;
-}
 /* other container */
 .container {
 	display: flex;
 	max-width: 100%;
-}
-/* Flex */
-.flex {
-	display: flex;
+} 
+/* second container */
+.secondary-container {
+  margin-top: 250px;
 }
 /* Text, button container */
 .content-container {
@@ -47,6 +43,7 @@ p {
 /* container for the scarecrow image */
 .scarecrow-container {
   text-align: center;
+  margin-top: 50px;
 }
 /* generic margin */
 .margin-top-40 {
@@ -113,6 +110,9 @@ p {
 @media (max-width: 800px) {
   .container {
     display: block;
+  }
+  .secondary-container {
+    margin-top: 80px;
   }
   .scarecrow-container {
     margin-top: 100px;
