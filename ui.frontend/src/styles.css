@@ -22,31 +22,63 @@ p {
   font-family: "Space Mono", Helvetica, Arial, sans-serif;
 }
 
+/*  Containers */
+/* main */
+.main-container {
+  display: block;
+}
+/* scare-crow container */
+.scarecrow-container {
+  margin-top: 280px;
+}
+/* other container */
+.container {
+	display: flex;
+	max-width: 100%;
+}
+/* Flex */
+.flex {
+	display: flex;
+}
+/* Text, button container */
+.content-container {
+	flex: 1;
+}
+/* container for the scarecrow image */
+.scarecrow-container {
+  text-align: center;
+}
+/* generic margin */
+.margin-top-40 {
+  margin-top: 40px;
+}
+/*  /Rows */
+
+/* 404 text */
 .text__not-fount {
   position: absolute;
-  width: 100%;
+  width: 300px;
   height: 25px;
   left: 77px;
   top: 40px;
-
-  font-family: 'Inconsolata', Helvetica, Arial, sans-serif;
+  font-family: 'Inconsolata', 'Helvetica', 'Arial', 'sans-serif';
   font-style: normal;
-  font-weight: 700;
+  font-weight: 700, bold;
   font-size: 24px;
   line-height: 25px;
   letter-spacing: -0.08em;
   text-transform: uppercase;
-
   color: #333333;
 }
 
 /* scarecrow image */
-.scarecrow {
-  width: 70%;
+.scarecrow-img {
+  width: 80%;
 }
 
+/* bigger title */
 .title-message__text {
-  font-family: 'Space Mono', Helvetica, Arial, sans-serif;
+  font-family: 'Space Mono', 'Helvetica', 'Arial', 'sans-serif';
   font-style: normal;
   font-weight: 700;
   font-size: 64px;
@@ -55,8 +87,9 @@ p {
   color: #333333;
 }
 
+/* detail message */
 .text__message {
-  font-family: 'Space Mono', Helvetica, Arial, sans-serif;
+  font-family: 'Space Mono', 'Helvetica', 'Arial', 'sans-serif';
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -65,9 +98,9 @@ p {
   color: #4F4F4F;
 }
 
+/* black button */
 .button__black {
   color: #ffffff;
-  position: absolute;
   width: 216px;
   height: 68px;
   left: 740px;
@@ -75,3 +108,24 @@ p {
   background: #333333;
 }
 
+
+/* Mobile styles */
+@media (max-width: 800px) {
+  .container {
+    display: block;
+  }
+  .scarecrow-container {
+    margin-top: 100px;
+  }
+  .content-container {
+    margin: 10%;
+  }
+  .text__not-fount {
+    position: relative;
+    left: 36px;
+    top: 0;
+  }
+  .title-message__text {
+    font-size: 48px;
+  }
+}
