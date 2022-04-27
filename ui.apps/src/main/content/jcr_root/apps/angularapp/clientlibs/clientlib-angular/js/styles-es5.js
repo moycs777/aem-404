@@ -1,14 +1,14 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["styles"], {
   /***/
-  "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/assets/fonts/myFonts.css":
-  /*!***********************************************************************************************************************************!*\
-    !*** ./node_modules/css-loader/dist/cjs.js??ref--12-1!./node_modules/postcss-loader/src??embedded!./src/assets/fonts/myFonts.css ***!
-    \***********************************************************************************************************************************/
+  "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/assets/fonts/myFonts.scss":
+  /*!**************************************************************************************************************************************************************************************!*\
+    !*** ./node_modules/css-loader/dist/cjs.js??ref--13-1!./node_modules/postcss-loader/src??embedded!./node_modules/sass-loader/dist/cjs.js??ref--13-3!./src/assets/fonts/myFonts.scss ***!
+    \**************************************************************************************************************************************************************************************/
 
   /*! no static exports found */
 
   /***/
-  function node_modulesCssLoaderDistCjsJsNode_modulesPostcssLoaderSrcIndexJsSrcAssetsFontsMyFontsCss(module, exports, __webpack_require__) {
+  function node_modulesCssLoaderDistCjsJsNode_modulesPostcssLoaderSrcIndexJsNode_modulesSassLoaderDistCjsJsSrcAssetsFontsMyFontsScss(module, exports, __webpack_require__) {
     // Imports
     var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(
     /*! ../../../node_modules/css-loader/dist/runtime/api.js */
@@ -16,13 +16,13 @@
 
     exports = ___CSS_LOADER_API_IMPORT___(true); // Module
 
-    exports.push([module.i, "@font-face {\r\n  font-family: Inconsolata;\r\n  src: url('/etc.clientlibs/angularapp/clientlibs/clientlib-angular/resources/Inconsolata.otf') format(\"opentype\");\r\n}\r\n@font-face {\r\n  font-family: Space Mono;\r\n  src: url('/etc.clientlibs/angularapp/clientlibs/clientlib-angular/resources/SpaceMono-Regular.ttf') format(\"opentype\");\r\n}", "", {
+    exports.push([module.i, "@font-face {\n  font-family: Inconsolata;\n  src: url('/etc.clientlibs/angularapp/clientlibs/clientlib-angular/resources/Inconsolata.otf') format(\"opentype\");\n}\n@font-face {\n  font-family: Montserrat;\n  src: url('/etc.clientlibs/angularapp/clientlibs/clientlib-angular/resources/Montserrat-Regular.ttf') format(\"opentype\");\n}\n@font-face {\n  font-family: Space Mono;\n  src: url('/etc.clientlibs/angularapp/clientlibs/clientlib-angular/resources/SpaceMono-Regular.ttf') format(\"opentype\");\n}", "", {
       "version": 3,
-      "sources": ["myFonts.css"],
+      "sources": ["C:\\Users\\moises.palacio\\Documents\\AEM\\Projectos\\aem-404\\ui.frontend/src\\assets\\fonts\\myFonts.scss", "myFonts.scss"],
       "names": [],
-      "mappings": "AAAA;EACE,wBAAwB;EACxB,gHAA4C;AAC9C;AACA;EACE,uBAAuB;EACvB,sHAAsE;AACxE",
-      "file": "myFonts.css",
-      "sourcesContent": ["@font-face {\r\n  font-family: Inconsolata;\r\n  src: url(Inconsolata.otf) format(\"opentype\");\r\n}\r\n@font-face {\r\n  font-family: Space Mono;\r\n  src: url(spacemono/spacemono/SpaceMono-Regular.ttf) format(\"opentype\");\r\n}"]
+      "mappings": "AAAA;EACE,wBAAA;EACA,gHAAA;ACCF;ADCA;EACE,uBAAA;EACA,uHAAA;ACCF;ADCA;EACE,uBAAA;EACA,sHAAA;ACCF",
+      "file": "myFonts.scss",
+      "sourcesContent": ["@font-face {\r\n  font-family: Inconsolata;\r\n  src: url(Inconsolata.otf) format(\"opentype\");\r\n}\r\n@font-face {\r\n  font-family: Montserrat;\r\n  src: url(montserrat/Montserrat-Regular.ttf) format(\"opentype\");\r\n}\r\n@font-face {\r\n  font-family: Space Mono;\r\n  src: url(spacemono/spacemono/SpaceMono-Regular.ttf) format(\"opentype\");\r\n}\r\n\r\n", "@font-face {\n  font-family: Inconsolata;\n  src: url(Inconsolata.otf) format(\"opentype\");\n}\n@font-face {\n  font-family: Montserrat;\n  src: url(montserrat/Montserrat-Regular.ttf) format(\"opentype\");\n}\n@font-face {\n  font-family: Space Mono;\n  src: url(spacemono/spacemono/SpaceMono-Regular.ttf) format(\"opentype\");\n}"]
     }]); // Exports
 
     module.exports = exports;
@@ -30,15 +30,15 @@
   },
 
   /***/
-  "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/styles.css":
-  /*!*********************************************************************************************************************!*\
-    !*** ./node_modules/css-loader/dist/cjs.js??ref--12-1!./node_modules/postcss-loader/src??embedded!./src/styles.css ***!
-    \*********************************************************************************************************************/
+  "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/styles.scss":
+  /*!************************************************************************************************************************************************************************!*\
+    !*** ./node_modules/css-loader/dist/cjs.js??ref--13-1!./node_modules/postcss-loader/src??embedded!./node_modules/sass-loader/dist/cjs.js??ref--13-3!./src/styles.scss ***!
+    \************************************************************************************************************************************************************************/
 
   /*! no static exports found */
 
   /***/
-  function node_modulesCssLoaderDistCjsJsNode_modulesPostcssLoaderSrcIndexJsSrcStylesCss(module, exports, __webpack_require__) {
+  function node_modulesCssLoaderDistCjsJsNode_modulesPostcssLoaderSrcIndexJsNode_modulesSassLoaderDistCjsJsSrcStylesScss(module, exports, __webpack_require__) {
     // Imports
     var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(
     /*! ../node_modules/css-loader/dist/runtime/api.js */
@@ -46,13 +46,13 @@
 
     exports = ___CSS_LOADER_API_IMPORT___(true); // Module
 
-    exports.push([module.i, "/* You can add global styles to this file, and also import other style files */\r\nhtml,\r\nbody {\r\n  border: 0;\r\n  font: inherit;\r\n  font-size: 100%;\r\n  margin: 0;\r\n  padding: 0;\r\n  vertical-align: baseline;\r\n}\r\nbody {\r\n  background-color: #ffffff;\r\n}\r\nh1,\r\nh2,\r\nh3,\r\nh4,\r\nh5,\r\np {\r\n  font-family: \"Space Mono\", Helvetica, Arial, sans-serif;\r\n}\r\n/*  Containers */\r\n/* main */\r\n.main-container {\r\n  display: block;\r\n}\r\n/* other container */\r\n.container {\r\n\tdisplay: flex;\r\n\tmax-width: 100%;\r\n}\r\n/* second container */\r\n.secondary-container {\r\n  margin-top: 250px;\r\n}\r\n/* Text, button container */\r\n.content-container {\r\n\tflex: 1;\r\n}\r\n/* container for the scarecrow image */\r\n.scarecrow-container {\r\n  text-align: center;\r\n  margin-top: 50px;\r\n}\r\n/* generic margin */\r\n.margin-top-40 {\r\n  margin-top: 40px;\r\n}\r\n/*  /Rows */\r\n/* 404 text */\r\n.text__not-fount {\r\n  position: absolute;\r\n  width: 300px;\r\n  height: 25px;\r\n  left: 77px;\r\n  top: 40px;\r\n  font-family: 'Inconsolata', 'Helvetica', 'Arial', 'sans-serif';\r\n  font-style: normal;\r\n  font-weight: 700, bold;\r\n  font-size: 24px;\r\n  line-height: 25px;\r\n  letter-spacing: -0.08em;\r\n  text-transform: uppercase;\r\n  color: #333333;\r\n}\r\n/* scarecrow image */\r\n.scarecrow-img {\r\n  width: 80%;\r\n}\r\n/* bigger title */\r\n.title-message__text {\r\n  font-family: 'Space Mono', 'Helvetica', 'Arial', 'sans-serif';\r\n  font-style: normal;\r\n  font-weight: 700;\r\n  font-size: 64px;\r\n  line-height: 95px;\r\n  letter-spacing: -0.035em;\r\n  color: #333333;\r\n}\r\n/* detail message */\r\n.text__message {\r\n  font-family: 'Space Mono', 'Helvetica', 'Arial', 'sans-serif';\r\n  font-style: normal;\r\n  font-weight: 400;\r\n  font-size: 24px;\r\n  line-height: 36px;\r\n  letter-spacing: -0.035em;\r\n  color: #4F4F4F;\r\n}\r\n/* black button */\r\n.button__black {\r\n  color: #ffffff;\r\n  width: 216px;\r\n  height: 68px;\r\n  left: 740px;\r\n  top: 663px;\r\n  background: #333333;\r\n}\r\n/* Mobile styles */\r\n@media (max-width: 800px) {\r\n  .container {\r\n    display: block;\r\n  }\r\n  .secondary-container {\r\n    margin-top: 80px;\r\n  }\r\n  .scarecrow-container {\r\n    margin-top: 100px;\r\n  }\r\n  .content-container {\r\n    margin: 10%;\r\n  }\r\n  .text__not-fount {\r\n    position: relative;\r\n    left: 36px;\r\n    top: 0;\r\n  }\r\n  .title-message__text {\r\n    font-size: 48px;\r\n  }\r\n}\r\nbutton {\r\n  color: #ffffff;\r\n  width: 216px;\r\n  height: 68px;\r\n  left: 740px;\r\n  top: 663px;\r\n  background: #333333 !important;\r\n}", "", {
+    exports.push([module.i, "/* You can add global styles to this file, and also import other style files */\nhtml,\nbody {\n  border: 0;\n  font: inherit;\n  font-size: 100%;\n  margin: 0;\n  padding: 0;\n  vertical-align: baseline;\n}\nbody {\n  background-color: #ffffff;\n}\n/*  Containers */\n/* main */\n.main-container {\n  display: block;\n}\n/* other container */\n.container {\n  display: flex;\n  max-width: 100%;\n}\n/* second container */\n.secondary-container {\n  margin-top: 110px;\n}\n/* Text, button container */\n.content-container {\n  flex: 1;\n}\n/* container for the scarecrow image */\n.scarecrow__container {\n  text-align: center;\n  margin-top: 50px;\n}\n/* generic margin */\n.margin-top-40 {\n  margin-top: 40px;\n}\n/*  /Rows */\n/* 404 text */\n.text__not-fount {\n  position: relative;\n  left: 36px;\n  width: 300px;\n  height: 25px;\n  font-family: \"Inconsolata\", \"Helvetica\", \"Arial\", \"sans-serif\";\n  font-style: normal;\n  font-weight: 700, bold;\n  font-size: 24px;\n  line-height: 25px;\n  letter-spacing: -0.08em;\n  text-transform: uppercase;\n  color: #333333;\n}\n/* scarecrow image */\n.scarecrow__img {\n  width: 80%;\n}\n/* bigger title */\n.title__message-text {\n  font-family: \"Space Mono\", \"Helvetica\", \"Arial\", \"sans-serif\";\n  font-style: normal;\n  font-weight: 700;\n  font-size: 64px;\n  line-height: 95px;\n  letter-spacing: -0.035em;\n  color: #333333;\n}\n/* detail message */\n.text__message {\n  font-family: \"Space Mono\", \"Helvetica\", \"Arial\", \"sans-serif\";\n  font-style: normal;\n  font-weight: 400;\n  font-size: 24px;\n  line-height: 36px;\n  letter-spacing: -0.035em;\n  color: #4F4F4F;\n}\n/* black button */\n.button__black button {\n  margin-top: 30px;\n  color: #ffffff;\n  width: 216px;\n  height: 68px;\n  background: #333333 !important;\n}\n/* Mobile styles */\n@media (max-width: 800px) {\n  .container {\n    display: block;\n  }\n\n  .secondary-container {\n    margin-top: 10px;\n  }\n\n  .scarecrow__container {\n    margin-top: 10px;\n  }\n\n  .text__not-fount {\n    position: relative;\n    left: 36px;\n    top: 0;\n  }\n\n  .title__message-text {\n    font-size: 48px;\n  }\n}\n.footer {\n  font-family: \"Montserrat\", \"Helvetica\", \"Arial\", \"sans-serif\";\n  font-style: normal;\n  font-weight: 500 !important;\n  font-size: 14px !important;\n  line-height: 17px;\n  text-align: center;\n  color: #BDBDBD;\n}", "", {
       "version": 3,
-      "sources": ["styles.css"],
+      "sources": ["C:\\Users\\moises.palacio\\Documents\\AEM\\Projectos\\aem-404\\ui.frontend/src\\styles.scss", "styles.scss"],
       "names": [],
-      "mappings": "AAAA,8EAA8E;AAC9E;;EAEE,SAAS;EACT,aAAa;EACb,eAAe;EACf,SAAS;EACT,UAAU;EACV,wBAAwB;AAC1B;AAEA;EACE,yBAAyB;AAC3B;AAEA;;;;;;EAME,uDAAuD;AACzD;AAEA,gBAAgB;AAChB,SAAS;AACT;EACE,cAAc;AAChB;AACA,oBAAoB;AACpB;CACC,aAAa;CACb,eAAe;AAChB;AACA,qBAAqB;AACrB;EACE,iBAAiB;AACnB;AACA,2BAA2B;AAC3B;CACC,OAAO;AACR;AACA,sCAAsC;AACtC;EACE,kBAAkB;EAClB,gBAAgB;AAClB;AACA,mBAAmB;AACnB;EACE,gBAAgB;AAClB;AACA,WAAW;AAEX,aAAa;AACb;EACE,kBAAkB;EAClB,YAAY;EACZ,YAAY;EACZ,UAAU;EACV,SAAS;EACT,8DAA8D;EAC9D,kBAAkB;EAClB,sBAAsB;EACtB,eAAe;EACf,iBAAiB;EACjB,uBAAuB;EACvB,yBAAyB;EACzB,cAAc;AAChB;AAEA,oBAAoB;AACpB;EACE,UAAU;AACZ;AAEA,iBAAiB;AACjB;EACE,6DAA6D;EAC7D,kBAAkB;EAClB,gBAAgB;EAChB,eAAe;EACf,iBAAiB;EACjB,wBAAwB;EACxB,cAAc;AAChB;AAEA,mBAAmB;AACnB;EACE,6DAA6D;EAC7D,kBAAkB;EAClB,gBAAgB;EAChB,eAAe;EACf,iBAAiB;EACjB,wBAAwB;EACxB,cAAc;AAChB;AAEA,iBAAiB;AACjB;EACE,cAAc;EACd,YAAY;EACZ,YAAY;EACZ,WAAW;EACX,UAAU;EACV,mBAAmB;AACrB;AAGA,kBAAkB;AAClB;EACE;IACE,cAAc;EAChB;EACA;IACE,gBAAgB;EAClB;EACA;IACE,iBAAiB;EACnB;EACA;IACE,WAAW;EACb;EACA;IACE,kBAAkB;IAClB,UAAU;IACV,MAAM;EACR;EACA;IACE,eAAe;EACjB;AACF;AACA;EACE,cAAc;EACd,YAAY;EACZ,YAAY;EACZ,WAAW;EACX,UAAU;EACV,8BAA8B;AAChC",
-      "file": "styles.css",
-      "sourcesContent": ["/* You can add global styles to this file, and also import other style files */\r\nhtml,\r\nbody {\r\n  border: 0;\r\n  font: inherit;\r\n  font-size: 100%;\r\n  margin: 0;\r\n  padding: 0;\r\n  vertical-align: baseline;\r\n}\r\n\r\nbody {\r\n  background-color: #ffffff;\r\n}\r\n\r\nh1,\r\nh2,\r\nh3,\r\nh4,\r\nh5,\r\np {\r\n  font-family: \"Space Mono\", Helvetica, Arial, sans-serif;\r\n}\r\n\r\n/*  Containers */\r\n/* main */\r\n.main-container {\r\n  display: block;\r\n}\r\n/* other container */\r\n.container {\r\n\tdisplay: flex;\r\n\tmax-width: 100%;\r\n} \r\n/* second container */\r\n.secondary-container {\r\n  margin-top: 250px;\r\n}\r\n/* Text, button container */\r\n.content-container {\r\n\tflex: 1;\r\n}\r\n/* container for the scarecrow image */\r\n.scarecrow-container {\r\n  text-align: center;\r\n  margin-top: 50px;\r\n}\r\n/* generic margin */\r\n.margin-top-40 {\r\n  margin-top: 40px;\r\n}\r\n/*  /Rows */\r\n\r\n/* 404 text */\r\n.text__not-fount {\r\n  position: absolute;\r\n  width: 300px;\r\n  height: 25px;\r\n  left: 77px;\r\n  top: 40px;\r\n  font-family: 'Inconsolata', 'Helvetica', 'Arial', 'sans-serif';\r\n  font-style: normal;\r\n  font-weight: 700, bold;\r\n  font-size: 24px;\r\n  line-height: 25px;\r\n  letter-spacing: -0.08em;\r\n  text-transform: uppercase;\r\n  color: #333333;\r\n}\r\n\r\n/* scarecrow image */\r\n.scarecrow-img {\r\n  width: 80%;\r\n}\r\n\r\n/* bigger title */\r\n.title-message__text {\r\n  font-family: 'Space Mono', 'Helvetica', 'Arial', 'sans-serif';\r\n  font-style: normal;\r\n  font-weight: 700;\r\n  font-size: 64px;\r\n  line-height: 95px;\r\n  letter-spacing: -0.035em;\r\n  color: #333333;\r\n}\r\n\r\n/* detail message */\r\n.text__message {\r\n  font-family: 'Space Mono', 'Helvetica', 'Arial', 'sans-serif';\r\n  font-style: normal;\r\n  font-weight: 400;\r\n  font-size: 24px;\r\n  line-height: 36px;\r\n  letter-spacing: -0.035em;\r\n  color: #4F4F4F;\r\n}\r\n\r\n/* black button */\r\n.button__black {\r\n  color: #ffffff;\r\n  width: 216px;\r\n  height: 68px;\r\n  left: 740px;\r\n  top: 663px;\r\n  background: #333333;\r\n}\r\n\r\n\r\n/* Mobile styles */\r\n@media (max-width: 800px) {\r\n  .container {\r\n    display: block;\r\n  }\r\n  .secondary-container {\r\n    margin-top: 80px;\r\n  }\r\n  .scarecrow-container {\r\n    margin-top: 100px;\r\n  }\r\n  .content-container {\r\n    margin: 10%;\r\n  }\r\n  .text__not-fount {\r\n    position: relative;\r\n    left: 36px;\r\n    top: 0;\r\n  }\r\n  .title-message__text {\r\n    font-size: 48px;\r\n  }\r\n}\r\nbutton {\r\n  color: #ffffff;\r\n  width: 216px;\r\n  height: 68px;\r\n  left: 740px;\r\n  top: 663px;\r\n  background: #333333 !important;\r\n}"]
+      "mappings": "AAAA,8EAAA;AACA;;EAEE,SAAA;EACA,aAAA;EACA,eAAA;EACA,SAAA;EACA,UAAA;EACA,wBAAA;ACCF;ADEA;EACE,yBAAA;ACCF;ADEA,gBAAA;AACA,SAAA;AACA;EACE,cAAA;ACCF;ADCA,oBAAA;AACA;EACC,aAAA;EACA,eAAA;ACED;ADAA,qBAAA;AACA;EACE,iBAAA;ACGF;ADDA,2BAAA;AACA;EACC,OAAA;ACID;ADFA,sCAAA;AACA;EACE,kBAAA;EACA,gBAAA;ACKF;ADHA,mBAAA;AACA;EACE,gBAAA;ACMF;ADJA,WAAA;AAEA,aAAA;AACA;EACE,kBAAA;EACA,UAAA;EACA,YAAA;EACA,YAAA;EACA,8DAAA;EACA,kBAAA;EACA,sBAAA;EACA,eAAA;EACA,iBAAA;EACA,uBAAA;EACA,yBAAA;EACA,cAAA;ACMF;ADJA,oBAAA;AACA;EACE,UAAA;ACOF;ADLA,iBAAA;AACA;EACE,6DAAA;EACA,kBAAA;EACA,gBAAA;EACA,eAAA;EACA,iBAAA;EACA,wBAAA;EACA,cAAA;ACQF;ADNA,mBAAA;AACA;EACE,6DAAA;EACA,kBAAA;EACA,gBAAA;EACA,eAAA;EACA,iBAAA;EACA,wBAAA;EACA,cAAA;ACSF;ADPA,iBAAA;AAEE;EACE,gBAAA;EACA,cAAA;EACA,YAAA;EACA,YAAA;EACA,8BAAA;ACSJ;ADLA,kBAAA;AACA;EACE;IACE,cAAA;ECQF;;EDNA;IACE,gBAAA;ECSF;;EDPA;IACE,gBAAA;ECUF;;EDRA;IACE,kBAAA;IACA,UAAA;IACA,MAAA;ECWF;;EDTA;IACE,eAAA;ECYF;AACF;ADTA;EACE,6DAAA;EACA,kBAAA;EACA,2BAAA;EACA,0BAAA;EACA,iBAAA;EACA,kBAAA;EACA,cAAA;ACWF",
+      "file": "styles.scss",
+      "sourcesContent": ["/* You can add global styles to this file, and also import other style files */\r\nhtml,\r\nbody {\r\n  border: 0;\r\n  font: inherit;\r\n  font-size: 100%;\r\n  margin: 0;\r\n  padding: 0;\r\n  vertical-align: baseline;\r\n}\r\n\r\nbody {\r\n  background-color: #ffffff;\r\n}\r\n\r\n/*  Containers */\r\n/* main */\r\n.main-container {\r\n  display: block;\r\n}\r\n/* other container */\r\n.container {\r\n\tdisplay: flex;\r\n\tmax-width: 100%;\r\n} \r\n/* second container */\r\n.secondary-container {\r\n  margin-top: 110px;\r\n}\r\n/* Text, button container */\r\n.content-container {\r\n\tflex: 1;\r\n}\r\n/* container for the scarecrow image */\r\n.scarecrow__container {\r\n  text-align: center;\r\n  margin-top: 50px;\r\n}\r\n/* generic margin */\r\n.margin-top-40 {\r\n  margin-top: 40px;\r\n}\r\n/*  /Rows */\r\n\r\n/* 404 text */\r\n.text__not-fount {\r\n  position: relative;\r\n  left: 36px;\r\n  width: 300px;\r\n  height: 25px;\r\n  font-family: 'Inconsolata', 'Helvetica', 'Arial', 'sans-serif';\r\n  font-style: normal;\r\n  font-weight: 700, bold;\r\n  font-size: 24px;\r\n  line-height: 25px;\r\n  letter-spacing: -0.08em;\r\n  text-transform: uppercase;\r\n  color: #333333;\r\n}\r\n/* scarecrow image */\r\n.scarecrow__img {\r\n  width: 80%;\r\n}\r\n/* bigger title */\r\n.title__message-text {\r\n  font-family: 'Space Mono', 'Helvetica', 'Arial', 'sans-serif';\r\n  font-style: normal;\r\n  font-weight: 700;\r\n  font-size: 64px;\r\n  line-height: 95px;\r\n  letter-spacing: -0.035em;\r\n  color: #333333;\r\n}\r\n/* detail message */\r\n.text__message {\r\n  font-family: 'Space Mono', 'Helvetica', 'Arial', 'sans-serif';\r\n  font-style: normal;\r\n  font-weight: 400;\r\n  font-size: 24px;\r\n  line-height: 36px;\r\n  letter-spacing: -0.035em;\r\n  color: #4F4F4F;\r\n}\r\n/* black button */\r\n.button__black { \r\n  button {\r\n    margin-top: 30px;\r\n    color: #ffffff;\r\n    width: 216px;\r\n    height: 68px;\r\n    background: #333333 !important;\r\n  }\r\n}\r\n\r\n/* Mobile styles */\r\n@media (max-width: 800px) {\r\n  .container {\r\n    display: block;\r\n  }\r\n  .secondary-container {\r\n    margin-top: 10px;\r\n  }\r\n  .scarecrow__container {\r\n    margin-top: 10px;\r\n  } \r\n  .text__not-fount {\r\n    position: relative;\r\n    left: 36px;\r\n    top: 0;\r\n  }\r\n  .title__message-text {\r\n    font-size: 48px;\r\n  }\r\n}\r\n\r\n.footer {\r\n  font-family: 'Montserrat', 'Helvetica', 'Arial', 'sans-serif';\r\n  font-style: normal;\r\n  font-weight: 500 !important;\r\n  font-size: 14px !important;\r\n  line-height: 17px;\r\n  text-align: center;\r\n  color: #BDBDBD;\r\n}", "/* You can add global styles to this file, and also import other style files */\nhtml,\nbody {\n  border: 0;\n  font: inherit;\n  font-size: 100%;\n  margin: 0;\n  padding: 0;\n  vertical-align: baseline;\n}\n\nbody {\n  background-color: #ffffff;\n}\n\n/*  Containers */\n/* main */\n.main-container {\n  display: block;\n}\n\n/* other container */\n.container {\n  display: flex;\n  max-width: 100%;\n}\n\n/* second container */\n.secondary-container {\n  margin-top: 110px;\n}\n\n/* Text, button container */\n.content-container {\n  flex: 1;\n}\n\n/* container for the scarecrow image */\n.scarecrow__container {\n  text-align: center;\n  margin-top: 50px;\n}\n\n/* generic margin */\n.margin-top-40 {\n  margin-top: 40px;\n}\n\n/*  /Rows */\n/* 404 text */\n.text__not-fount {\n  position: relative;\n  left: 36px;\n  width: 300px;\n  height: 25px;\n  font-family: \"Inconsolata\", \"Helvetica\", \"Arial\", \"sans-serif\";\n  font-style: normal;\n  font-weight: 700, bold;\n  font-size: 24px;\n  line-height: 25px;\n  letter-spacing: -0.08em;\n  text-transform: uppercase;\n  color: #333333;\n}\n\n/* scarecrow image */\n.scarecrow__img {\n  width: 80%;\n}\n\n/* bigger title */\n.title__message-text {\n  font-family: \"Space Mono\", \"Helvetica\", \"Arial\", \"sans-serif\";\n  font-style: normal;\n  font-weight: 700;\n  font-size: 64px;\n  line-height: 95px;\n  letter-spacing: -0.035em;\n  color: #333333;\n}\n\n/* detail message */\n.text__message {\n  font-family: \"Space Mono\", \"Helvetica\", \"Arial\", \"sans-serif\";\n  font-style: normal;\n  font-weight: 400;\n  font-size: 24px;\n  line-height: 36px;\n  letter-spacing: -0.035em;\n  color: #4F4F4F;\n}\n\n/* black button */\n.button__black button {\n  margin-top: 30px;\n  color: #ffffff;\n  width: 216px;\n  height: 68px;\n  background: #333333 !important;\n}\n\n/* Mobile styles */\n@media (max-width: 800px) {\n  .container {\n    display: block;\n  }\n\n  .secondary-container {\n    margin-top: 10px;\n  }\n\n  .scarecrow__container {\n    margin-top: 10px;\n  }\n\n  .text__not-fount {\n    position: relative;\n    left: 36px;\n    top: 0;\n  }\n\n  .title__message-text {\n    font-size: 48px;\n  }\n}\n.footer {\n  font-family: \"Montserrat\", \"Helvetica\", \"Arial\", \"sans-serif\";\n  font-style: normal;\n  font-weight: 500 !important;\n  font-size: 14px !important;\n  line-height: 17px;\n  text-align: center;\n  color: #BDBDBD;\n}"]
     }]); // Exports
 
     module.exports = exports;
@@ -451,22 +451,22 @@
   },
 
   /***/
-  "./src/assets/fonts/myFonts.css":
-  /*!**************************************!*\
-    !*** ./src/assets/fonts/myFonts.css ***!
-    \**************************************/
+  "./src/assets/fonts/myFonts.scss":
+  /*!***************************************!*\
+    !*** ./src/assets/fonts/myFonts.scss ***!
+    \***************************************/
 
   /*! no static exports found */
 
   /***/
-  function srcAssetsFontsMyFontsCss(module, exports, __webpack_require__) {
+  function srcAssetsFontsMyFontsScss(module, exports, __webpack_require__) {
     var api = __webpack_require__(
     /*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */
     "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
 
     var content = __webpack_require__(
-    /*! !../../../node_modules/css-loader/dist/cjs.js??ref--12-1!../../../node_modules/postcss-loader/src??embedded!./myFonts.css */
-    "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/assets/fonts/myFonts.css");
+    /*! !../../../node_modules/css-loader/dist/cjs.js??ref--13-1!../../../node_modules/postcss-loader/src??embedded!../../../node_modules/sass-loader/dist/cjs.js??ref--13-3!./myFonts.scss */
+    "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/assets/fonts/myFonts.scss");
 
     content = content.__esModule ? content["default"] : content;
 
@@ -484,22 +484,22 @@
   },
 
   /***/
-  "./src/styles.css":
-  /*!************************!*\
-    !*** ./src/styles.css ***!
-    \************************/
+  "./src/styles.scss":
+  /*!*************************!*\
+    !*** ./src/styles.scss ***!
+    \*************************/
 
   /*! no static exports found */
 
   /***/
-  function srcStylesCss(module, exports, __webpack_require__) {
+  function srcStylesScss(module, exports, __webpack_require__) {
     var api = __webpack_require__(
     /*! ../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */
     "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
 
     var content = __webpack_require__(
-    /*! !../node_modules/css-loader/dist/cjs.js??ref--12-1!../node_modules/postcss-loader/src??embedded!./styles.css */
-    "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/styles.css");
+    /*! !../node_modules/css-loader/dist/cjs.js??ref--13-1!../node_modules/postcss-loader/src??embedded!../node_modules/sass-loader/dist/cjs.js??ref--13-3!./styles.scss */
+    "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./src/styles.scss");
 
     content = content.__esModule ? content["default"] : content;
 
@@ -518,21 +518,21 @@
 
   /***/
   3:
-  /*!*************************************************************!*\
-    !*** multi ./src/styles.css ./src/assets/fonts/myFonts.css ***!
-    \*************************************************************/
+  /*!***************************************************************!*\
+    !*** multi ./src/styles.scss ./src/assets/fonts/myFonts.scss ***!
+    \***************************************************************/
 
   /*! no static exports found */
 
   /***/
   function _(module, exports, __webpack_require__) {
     __webpack_require__(
-    /*! C:\Users\moises.palacio\Documents\AEM\Projectos\aem-404\ui.frontend\src\styles.css */
-    "./src/styles.css");
+    /*! C:\Users\moises.palacio\Documents\AEM\Projectos\aem-404\ui.frontend\src\styles.scss */
+    "./src/styles.scss");
 
     module.exports = __webpack_require__(
-    /*! C:\Users\moises.palacio\Documents\AEM\Projectos\aem-404\ui.frontend\src\assets\fonts\myFonts.css */
-    "./src/assets/fonts/myFonts.css");
+    /*! C:\Users\moises.palacio\Documents\AEM\Projectos\aem-404\ui.frontend\src\assets\fonts\myFonts.scss */
+    "./src/assets/fonts/myFonts.scss");
     /***/
   }
 }, [[3, "runtime"]]]);
