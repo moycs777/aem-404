@@ -4,6 +4,9 @@ input::-ms-reveal,
 input::-ms-clear {
   display: none;
 }
+.login__background--mobile {
+    display:none;
+}
 
 .login__main-container {
     display: flex;
@@ -30,6 +33,7 @@ input::-ms-clear {
     margin-top: 150px;
 }
 .login__form-header > h1 {
+    margin-bottom: 0;
     font-family: 'Mark Pro';
     font-style: normal;
     font-weight: 400;
@@ -37,6 +41,7 @@ input::-ms-clear {
     line-height: 76px;
 }
 .login__form-text {
+    max-width: 301px;
     font-family: 'Mark Pro';
     font-style: normal;
     font-weight: 400;
@@ -53,7 +58,7 @@ input::-ms-clear {
 }
 .login__form-group {
     position: relative;
-    width: 379px;
+    width: 100%;
     height: 60px;
     margin-bottom: 10%;
 }
@@ -93,7 +98,7 @@ input::-ms-clear {
     color: #E9B425;
 }
 .login__form-submit-btn {
-    width: 379px;
+    width: 100%;
     height: 67px;
     background: linear-gradient(90deg, #FF2D04 0%, #C13216 100%);
     box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.15);
@@ -113,5 +118,20 @@ input::-ms-clear {
     }
     .login__background {
         display: none;
+    }
+    .login__form-inner-container {
+        margin-top: 15px;
+        width: 73%;
+    }
+    .login__background--mobile { 
+        display: block;
+        text-align: center;
+    }
+    .login__form-header {
+        margin-top: 80px;
+    }
+    .login__background--mobile > img {
+        width: 306px;
+        height: 69px;
     }
 }
