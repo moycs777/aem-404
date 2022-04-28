@@ -51,7 +51,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<!-- <div class=\"login__main-container\">\r\n    <div class=\"login__form-container\">\r\n        <div class=\"login__form-inner-container\">\r\n            <div class=\"login__background--mobile\">\r\n                <img src=\"../assets/svgs/Logo-Compasso-Branco-hor 1.svg\" class=\"login__logo\" alt=\"\">\r\n            </div>\r\n            <div class=\"login__form-header\">\r\n                <h1>Olá,</h1>\r\n                <p class=\"login__form-text\">Para continuar navegando de forma segura, efetue o login na rede.</p>\r\n            </div>\r\n            <div class=\"login__form-body\">\r\n                <h1 class=\"login__sub-title\">Login</h1>\r\n                <form [formGroup]=\"loginForm\" (ngSubmit)=\"onSubmit()\">\r\n                    <div class=\"login__form-group\">\r\n                        <input \r\n                            type=\"text\" \r\n                            id=\"username\"\r\n                            class=\"login__form-input\" \r\n                            formControlName=\"username\" \r\n                            placeholder=\"Usuario\"\r\n                        />\r\n                        <img src=\"../assets/svgs/user.svg\" class=\"login__form-img\" alt=\"\">\r\n                    </div>\r\n                    <div class=\"login__form-group\">\r\n                        <input \r\n                            [type]=\"inputType\" \r\n                            id=\"password\" \r\n                            class=\"login__form-input\"\r\n                            formControlName=\"password\" \r\n                            placeholder=\"Senha\"\r\n                        />\r\n                        <img (click)=\"changeInputType()\" src=\"../assets/svgs/padlock.svg\" class=\"login__form-img\" alt=\"\">\r\n                    </div>\r\n                    <div class=\"login__form-group login__form-error\">\r\n                        <p *ngIf=\"hasLoginError.length > 0\">{{ hasLoginError }}</p>\r\n                    </div>\r\n                    <div class=\"login__form-group\">\r\n                        <button type=\"submit\" class=\"login__form-submit-btn\">Continuar</button>\r\n                    </div>\r\n                </form>\r\n            </div>\r\n        </div>\r\n    </div>\r\n\r\n    <div class=\"login__background\">\r\n        <img src=\"../assets/svgs/Logo-Compasso-Branco-hor 1.svg\" class=\"login__logo\" alt=\"\">\r\n    </div>\r\n</div> -->\r\n\r\n<router-outlet></router-outlet>\r\n";
+    __webpack_exports__["default"] = "<div class=\"login__main-container\">\r\n    <div class=\"login__form-container\">\r\n        <div class=\"login__form-inner-container\">\r\n            <div class=\"login__background--mobile\">\r\n                <img src=\"../assets/svgs/Logo-Compasso-Branco-hor 1.svg\" class=\"login__logo\" alt=\"\">\r\n            </div>\r\n            <div class=\"login__form-header\">\r\n                <h1>Olá,</h1>\r\n                <p class=\"login__form-text\">Para continuar navegando de forma segura, efetue o login na rede.</p>\r\n            </div>\r\n            <!-- <div class=\"login__form-body\">\r\n                <h1 class=\"login__sub-title\">Login</h1>\r\n                <div class=\"login__form-group\">\r\n                    <input \r\n                        [(ngModel)]=\"user.username\"\r\n                        type=\"text\" \r\n                        id=\"username\"\r\n                        name=\"username\"\r\n                        class=\"login__form-input\" \r\n                        placeholder=\"Usuario\"\r\n                    />\r\n                    <img src=\"../assets/svgs/user.svg\" class=\"login__form-img\" alt=\"\">\r\n                </div>\r\n                <div class=\"login__form-group\">\r\n                    <input \r\n                        [(ngModel)]=\"user.password\"\r\n                        [type]=\"inputType\" \r\n                        id=\"password\" \r\n                        name=\"password\" \r\n                        class=\"login__form-input\"\r\n                        placeholder=\"Senha\"\r\n                    />\r\n                    <img (click)=\"changeInputType()\" src=\"../assets/svgs/padlock.svg\" class=\"login__form-img\" alt=\"\">\r\n                </div>\r\n                <div class=\"login__form-group login__form-error\">\r\n                    <p *ngIf=\"hasLoginError.length > 0\">{{ hasLoginError }}</p>\r\n                </div>\r\n                <div [disabled]=\"isLoading\" (click)=\"onSubmit()\" class=\"login__form-group\">\r\n                    <button type=\"submit\" class=\"login__form-submit-btn\">Continuar</button>\r\n                </div>\r\n            </div> -->\r\n            <app-login-form></app-login-form>\r\n        </div>\r\n    </div>\r\n\r\n    <div class=\"login__background\">\r\n        <img src=\"../assets/svgs/Logo-Compasso-Branco-hor 1.svg\" class=\"login__logo\" alt=\"\">\r\n    </div>\r\n</div>\r\n\r\n<router-outlet></router-outlet>\r\n";
     /***/
   },
 
@@ -72,6 +72,26 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
 
     __webpack_exports__["default"] = "<div>\n  <p>404 test Minha propriedade de texto: {{text}}</p>\n  <p>Meu checkbox está: {{checkbox ? \"marcado\" : \"desmarcado\"}}</p>\n</div>";
+    /***/
+  },
+
+  /***/
+  "./node_modules/raw-loader/dist/cjs.js!./src/app/components/login-form/login-form.component.html":
+  /*!*******************************************************************************************************!*\
+    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/login-form/login-form.component.html ***!
+    \*******************************************************************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function node_modulesRawLoaderDistCjsJsSrcAppComponentsLoginFormLoginFormComponentHtml(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = "<div class=\"login__form-body\">\n    <h1 class=\"login__sub-title\">Login</h1>\n    <div class=\"login__form-group\">\n        <input \n            [(ngModel)]=\"user.username\"\n            type=\"text\" \n            id=\"username\"\n            name=\"username\"\n            class=\"login__form-input\" \n            placeholder=\"Usuario\"\n        />\n        <img src=\"../assets/svgs/user.svg\" class=\"login__form-img\" alt=\"\">\n    </div>\n    <div class=\"login__form-group\">\n        <input \n            [(ngModel)]=\"user.password\"\n            [type]=\"inputType\" \n            id=\"password\" \n            name=\"password\" \n            class=\"login__form-input\"\n            placeholder=\"Senha\"\n        />\n        <img (click)=\"changeInputType()\" src=\"../assets/svgs/padlock.svg\" class=\"login__form-img\" alt=\"\">\n    </div>\n    <div class=\"login__form-group login__form-error\">\n        <p *ngIf=\"hasLoginError.length > 0\">{{ hasLoginError }}</p>\n    </div>\n    <div [disabled]=\"isLoading\" (click)=\"onSubmit()\" class=\"login__form-group\">\n        <button type=\"submit\" class=\"login__form-submit-btn\">Continuar</button>\n    </div>\n</div>";
     /***/
   },
 
@@ -231,19 +251,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     !*** ./src/app/app.component.ts ***!
     \**********************************/
 
-  /*! exports provided: inputTypes, AppComponent */
+  /*! exports provided: AppComponent */
 
   /***/
   function srcAppAppComponentTs(module, __webpack_exports__, __webpack_require__) {
     "use strict";
 
     __webpack_require__.r(__webpack_exports__);
-    /* harmony export (binding) */
-
-
-    __webpack_require__.d(__webpack_exports__, "inputTypes", function () {
-      return inputTypes;
-    });
     /* harmony export (binding) */
 
 
@@ -279,39 +293,19 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /*! @angular/core */
     "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
 
-    var inputTypes;
+    var AppComponent = /*#__PURE__*/_createClass(function AppComponent() {
+      var _this = this;
 
-    (function (inputTypes) {
-      inputTypes["TEXT"] = "text";
-      inputTypes["PASSWORD"] = "password";
-    })(inputTypes || (inputTypes = {}));
+      _classCallCheck(this, AppComponent);
 
-    var AppComponent = /*#__PURE__*/function () {
-      function AppComponent() {
-        var _this = this;
+      this.updateData = function (pageModel) {
+        _this.path = pageModel[_adobe_aem_angular_editable_components__WEBPACK_IMPORTED_MODULE_2__["Constants"].PATH_PROP];
+        _this.items = pageModel[_adobe_aem_angular_editable_components__WEBPACK_IMPORTED_MODULE_2__["Constants"].ITEMS_PROP];
+        _this.itemsOrder = pageModel[_adobe_aem_angular_editable_components__WEBPACK_IMPORTED_MODULE_2__["Constants"].ITEMS_ORDER_PROP];
+      };
 
-        _classCallCheck(this, AppComponent);
-
-        this.inputType = inputTypes.PASSWORD;
-
-        this.updateData = function (pageModel) {
-          _this.path = pageModel[_adobe_aem_angular_editable_components__WEBPACK_IMPORTED_MODULE_2__["Constants"].PATH_PROP];
-          _this.items = pageModel[_adobe_aem_angular_editable_components__WEBPACK_IMPORTED_MODULE_2__["Constants"].ITEMS_PROP];
-          _this.itemsOrder = pageModel[_adobe_aem_angular_editable_components__WEBPACK_IMPORTED_MODULE_2__["Constants"].ITEMS_ORDER_PROP];
-        };
-
-        _adobe_aem_spa_page_model_manager__WEBPACK_IMPORTED_MODULE_1__["ModelManager"].initialize().then(this.updateData);
-      }
-
-      _createClass(AppComponent, [{
-        key: "changeInputType",
-        value: function changeInputType() {
-          if (this.inputType === inputTypes.PASSWORD) this.inputType = inputTypes.TEXT;else this.inputType = inputTypes.PASSWORD;
-        }
-      }]);
-
-      return AppComponent;
-    }();
+      _adobe_aem_spa_page_model_manager__WEBPACK_IMPORTED_MODULE_1__["ModelManager"].initialize().then(this.updateData);
+    });
 
     AppComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([Object(_angular_core__WEBPACK_IMPORTED_MODULE_3__["Component"])({
       selector: "#spa-root",
@@ -407,94 +401,112 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony import */
 
 
-    var _adobe_aem_core_components_angular_spa_containers_tabs_v1__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(
+    var _angular_forms__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(
+    /*! @angular/forms */
+    "./node_modules/@angular/forms/__ivy_ngcc__/fesm2015/forms.js");
+    /* harmony import */
+
+
+    var _angular_common_http__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(
+    /*! @angular/common/http */
+    "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/http.js");
+    /* harmony import */
+
+
+    var _adobe_aem_core_components_angular_spa_containers_tabs_v1__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(
     /*! @adobe/aem-core-components-angular-spa/containers/tabs/v1 */
     "./node_modules/@adobe/aem-core-components-angular-spa/__ivy_ngcc__/fesm2015/adobe-aem-core-components-angular-spa-containers-tabs-v1.js");
     /* harmony import */
 
 
-    var _adobe_aem_core_components_angular_base_authoring_title_v2__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(
+    var _adobe_aem_core_components_angular_base_authoring_title_v2__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(
     /*! @adobe/aem-core-components-angular-base/authoring/title/v2 */
     "./node_modules/@adobe/aem-core-components-angular-base/__ivy_ngcc__/fesm2015/adobe-aem-core-components-angular-base-authoring-title-v2.js");
     /* harmony import */
 
 
-    var _adobe_aem_core_components_angular_base_layout_breadcrumb_v2__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(
+    var _adobe_aem_core_components_angular_base_layout_breadcrumb_v2__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(
     /*! @adobe/aem-core-components-angular-base/layout/breadcrumb/v2 */
     "./node_modules/@adobe/aem-core-components-angular-base/__ivy_ngcc__/fesm2015/adobe-aem-core-components-angular-base-layout-breadcrumb-v2.js");
     /* harmony import */
 
 
-    var _adobe_aem_core_components_angular_base_layout_navigation_v1__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(
+    var _adobe_aem_core_components_angular_base_layout_navigation_v1__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(
     /*! @adobe/aem-core-components-angular-base/layout/navigation/v1 */
     "./node_modules/@adobe/aem-core-components-angular-base/__ivy_ngcc__/fesm2015/adobe-aem-core-components-angular-base-layout-navigation-v1.js");
     /* harmony import */
 
 
-    var _adobe_aem_core_components_angular_base_authoring_button_v1__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(
+    var _adobe_aem_core_components_angular_base_authoring_button_v1__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(
     /*! @adobe/aem-core-components-angular-base/authoring/button/v1 */
     "./node_modules/@adobe/aem-core-components-angular-base/__ivy_ngcc__/fesm2015/adobe-aem-core-components-angular-base-authoring-button-v1.js");
     /* harmony import */
 
 
-    var _adobe_aem_core_components_angular_base_authoring_image_v2__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(
+    var _adobe_aem_core_components_angular_base_authoring_image_v2__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(
     /*! @adobe/aem-core-components-angular-base/authoring/image/v2 */
     "./node_modules/@adobe/aem-core-components-angular-base/__ivy_ngcc__/fesm2015/adobe-aem-core-components-angular-base-authoring-image-v2.js");
     /* harmony import */
 
 
-    var _adobe_aem_core_components_angular_base_authoring_download_v1__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(
+    var _adobe_aem_core_components_angular_base_authoring_download_v1__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(
     /*! @adobe/aem-core-components-angular-base/authoring/download/v1 */
     "./node_modules/@adobe/aem-core-components-angular-base/__ivy_ngcc__/fesm2015/adobe-aem-core-components-angular-base-authoring-download-v1.js");
     /* harmony import */
 
 
-    var _adobe_aem_core_components_angular_base_authoring_list_v2__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(
+    var _adobe_aem_core_components_angular_base_authoring_list_v2__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(
     /*! @adobe/aem-core-components-angular-base/authoring/list/v2 */
     "./node_modules/@adobe/aem-core-components-angular-base/__ivy_ngcc__/fesm2015/adobe-aem-core-components-angular-base-authoring-list-v2.js");
     /* harmony import */
 
 
-    var _adobe_aem_core_components_angular_base_authoring_separator_v1__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(
+    var _adobe_aem_core_components_angular_base_authoring_separator_v1__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(
     /*! @adobe/aem-core-components-angular-base/authoring/separator/v1 */
     "./node_modules/@adobe/aem-core-components-angular-base/__ivy_ngcc__/fesm2015/adobe-aem-core-components-angular-base-authoring-separator-v1.js");
     /* harmony import */
 
 
-    var _adobe_aem_core_components_angular_spa_containers_accordion_v1__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(
+    var _adobe_aem_core_components_angular_spa_containers_accordion_v1__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(
     /*! @adobe/aem-core-components-angular-spa/containers/accordion/v1 */
     "./node_modules/@adobe/aem-core-components-angular-spa/__ivy_ngcc__/fesm2015/adobe-aem-core-components-angular-spa-containers-accordion-v1.js");
     /* harmony import */
 
 
-    var _adobe_aem_core_components_angular_base_layout_language_navigation_v1__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(
+    var _adobe_aem_core_components_angular_base_layout_language_navigation_v1__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(
     /*! @adobe/aem-core-components-angular-base/layout/language-navigation/v1 */
     "./node_modules/@adobe/aem-core-components-angular-base/__ivy_ngcc__/fesm2015/adobe-aem-core-components-angular-base-layout-language-navigation-v1.js");
     /* harmony import */
 
 
-    var _components_basic_component_basic_component_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(
+    var _components_basic_component_basic_component_component__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(
     /*! ./components/basic-component/basic-component.component */
     "./src/app/components/basic-component/basic-component.component.ts");
     /* harmony import */
 
 
-    var _components_my_component_my_component_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(
+    var _components_my_component_my_component_component__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(
     /*! ./components/my-component/my-component.component */
     "./src/app/components/my-component/my-component.component.ts");
+    /* harmony import */
+
+
+    var _components_login_form_login_form_component__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(
+    /*! ./components/login-form/login-form.component */
+    "./src/app/components/login-form/login-form.component.ts");
 
     var AppModule = /*#__PURE__*/_createClass(function AppModule() {
       _classCallCheck(this, AppModule);
     });
 
     AppModule = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([Object(_angular_core__WEBPACK_IMPORTED_MODULE_3__["NgModule"])({
-      imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_4__["BrowserModule"], _adobe_aem_angular_editable_components__WEBPACK_IMPORTED_MODULE_1__["SpaAngularEditableComponentsModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_5__["AppRoutingModule"], _adobe_aem_core_components_angular_spa_containers_tabs_v1__WEBPACK_IMPORTED_MODULE_10__["AemAngularCoreWcmComponentsTabsV1"], _adobe_aem_core_components_angular_base_authoring_title_v2__WEBPACK_IMPORTED_MODULE_11__["AemAngularCoreWcmComponentsTitleV2"], _adobe_aem_core_components_angular_base_layout_breadcrumb_v2__WEBPACK_IMPORTED_MODULE_12__["AemAngularCoreWcmComponentsBreadCrumbV2"], _adobe_aem_core_components_angular_base_layout_navigation_v1__WEBPACK_IMPORTED_MODULE_13__["AemAngularCoreWcmComponentsNavigationV1"], _adobe_aem_core_components_angular_base_authoring_button_v1__WEBPACK_IMPORTED_MODULE_14__["AemAngularCoreWcmComponentsButtonV1"], _adobe_aem_core_components_angular_base_authoring_image_v2__WEBPACK_IMPORTED_MODULE_15__["AemAngularCoreWcmComponentsImageV2"], _adobe_aem_core_components_angular_base_authoring_download_v1__WEBPACK_IMPORTED_MODULE_16__["AemAngularCoreWcmComponentsDownloadV1"], _adobe_aem_core_components_angular_base_authoring_list_v2__WEBPACK_IMPORTED_MODULE_17__["AemAngularCoreWcmComponentsListV2"], _adobe_aem_core_components_angular_spa_containers_accordion_v1__WEBPACK_IMPORTED_MODULE_19__["AemAngularCoreWcmComponentsAccordionV1"], _adobe_aem_core_components_angular_base_authoring_separator_v1__WEBPACK_IMPORTED_MODULE_18__["AemAngularCoreWcmComponentsSeparatorV1"], _adobe_aem_core_components_angular_base_layout_language_navigation_v1__WEBPACK_IMPORTED_MODULE_20__["AemAngularCoreWcmComponentsLanguageNavigationV1"]],
-      providers: [_components_model_manager_service__WEBPACK_IMPORTED_MODULE_8__["ModelManagerService"], {
+      imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_4__["BrowserModule"], _adobe_aem_angular_editable_components__WEBPACK_IMPORTED_MODULE_1__["SpaAngularEditableComponentsModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_5__["AppRoutingModule"], _adobe_aem_core_components_angular_spa_containers_tabs_v1__WEBPACK_IMPORTED_MODULE_12__["AemAngularCoreWcmComponentsTabsV1"], _adobe_aem_core_components_angular_base_authoring_title_v2__WEBPACK_IMPORTED_MODULE_13__["AemAngularCoreWcmComponentsTitleV2"], _adobe_aem_core_components_angular_base_layout_breadcrumb_v2__WEBPACK_IMPORTED_MODULE_14__["AemAngularCoreWcmComponentsBreadCrumbV2"], _adobe_aem_core_components_angular_base_layout_navigation_v1__WEBPACK_IMPORTED_MODULE_15__["AemAngularCoreWcmComponentsNavigationV1"], _adobe_aem_core_components_angular_base_authoring_button_v1__WEBPACK_IMPORTED_MODULE_16__["AemAngularCoreWcmComponentsButtonV1"], _adobe_aem_core_components_angular_base_authoring_image_v2__WEBPACK_IMPORTED_MODULE_17__["AemAngularCoreWcmComponentsImageV2"], _adobe_aem_core_components_angular_base_authoring_download_v1__WEBPACK_IMPORTED_MODULE_18__["AemAngularCoreWcmComponentsDownloadV1"], _adobe_aem_core_components_angular_base_authoring_list_v2__WEBPACK_IMPORTED_MODULE_19__["AemAngularCoreWcmComponentsListV2"], _adobe_aem_core_components_angular_spa_containers_accordion_v1__WEBPACK_IMPORTED_MODULE_21__["AemAngularCoreWcmComponentsAccordionV1"], _adobe_aem_core_components_angular_base_authoring_separator_v1__WEBPACK_IMPORTED_MODULE_20__["AemAngularCoreWcmComponentsSeparatorV1"], _adobe_aem_core_components_angular_base_layout_language_navigation_v1__WEBPACK_IMPORTED_MODULE_22__["AemAngularCoreWcmComponentsLanguageNavigationV1"], _angular_forms__WEBPACK_IMPORTED_MODULE_10__["FormsModule"], _angular_common_http__WEBPACK_IMPORTED_MODULE_11__["HttpClientModule"]],
+      providers: [_components_model_manager_service__WEBPACK_IMPORTED_MODULE_8__["ModelManagerService"], _angular_common_http__WEBPACK_IMPORTED_MODULE_11__["HttpClientModule"], {
         provide: _angular_common__WEBPACK_IMPORTED_MODULE_2__["APP_BASE_HREF"],
         useValue: "/"
       }],
-      declarations: [_app_component__WEBPACK_IMPORTED_MODULE_6__["AppComponent"], _components_page_page_component__WEBPACK_IMPORTED_MODULE_9__["PageComponent"], _components_basic_component_basic_component_component__WEBPACK_IMPORTED_MODULE_21__["BasicComponentComponent"], _components_my_component_my_component_component__WEBPACK_IMPORTED_MODULE_22__["MyComponentComponent"]],
-      entryComponents: [_components_page_page_component__WEBPACK_IMPORTED_MODULE_9__["PageComponent"], _components_basic_component_basic_component_component__WEBPACK_IMPORTED_MODULE_21__["BasicComponentComponent"], _components_my_component_my_component_component__WEBPACK_IMPORTED_MODULE_22__["MyComponentComponent"]],
+      declarations: [_app_component__WEBPACK_IMPORTED_MODULE_6__["AppComponent"], _components_page_page_component__WEBPACK_IMPORTED_MODULE_9__["PageComponent"], _components_basic_component_basic_component_component__WEBPACK_IMPORTED_MODULE_23__["BasicComponentComponent"], _components_my_component_my_component_component__WEBPACK_IMPORTED_MODULE_24__["MyComponentComponent"], _components_login_form_login_form_component__WEBPACK_IMPORTED_MODULE_25__["LoginFormComponent"]],
+      entryComponents: [_components_page_page_component__WEBPACK_IMPORTED_MODULE_9__["PageComponent"], _components_basic_component_basic_component_component__WEBPACK_IMPORTED_MODULE_23__["BasicComponentComponent"], _components_my_component_my_component_component__WEBPACK_IMPORTED_MODULE_24__["MyComponentComponent"], _components_login_form_login_form_component__WEBPACK_IMPORTED_MODULE_25__["LoginFormComponent"]],
       bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_6__["AppComponent"]]
     })], AppModule);
     /***/
@@ -829,6 +841,183 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   },
 
   /***/
+  "./src/app/components/login-form/login-form.component.scss":
+  /*!*****************************************************************!*\
+    !*** ./src/app/components/login-form/login-form.component.scss ***!
+    \*****************************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function srcAppComponentsLoginFormLoginFormComponentScss(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvbG9naW4tZm9ybS9sb2dpbi1mb3JtLmNvbXBvbmVudC5zY3NzIn0= */";
+    /***/
+  },
+
+  /***/
+  "./src/app/components/login-form/login-form.component.ts":
+  /*!***************************************************************!*\
+    !*** ./src/app/components/login-form/login-form.component.ts ***!
+    \***************************************************************/
+
+  /*! exports provided: inputTypes, LoginFormComponent */
+
+  /***/
+  function srcAppComponentsLoginFormLoginFormComponentTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "inputTypes", function () {
+      return inputTypes;
+    });
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "LoginFormComponent", function () {
+      return LoginFormComponent;
+    });
+    /* harmony import */
+
+
+    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! tslib */
+    "./node_modules/tslib/tslib.es6.js");
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! @angular/core */
+    "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+    /* harmony import */
+
+
+    var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! @angular/router */
+    "./node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
+    /* harmony import */
+
+
+    var src_app_services_login_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+    /*! src/app/services/login.service */
+    "./src/app/services/login.service.ts");
+
+    var inputTypes;
+
+    (function (inputTypes) {
+      inputTypes["TEXT"] = "text";
+      inputTypes["PASSWORD"] = "password";
+    })(inputTypes || (inputTypes = {}));
+
+    ;
+
+    var LoginFormComponent = /*#__PURE__*/function () {
+      function LoginFormComponent(loginService, router) {
+        _classCallCheck(this, LoginFormComponent);
+
+        this.loginService = loginService;
+        this.router = router;
+        this.inputType = inputTypes.PASSWORD;
+        this.hasLoginError = "";
+        this.user = {
+          username: "",
+          password: ""
+        };
+        this.isLoading = false;
+      }
+
+      _createClass(LoginFormComponent, [{
+        key: "ngOnInit",
+        value: function ngOnInit() {}
+      }, {
+        key: "changeInputType",
+        value: function changeInputType() {
+          if (this.inputType === inputTypes.PASSWORD) this.inputType = inputTypes.TEXT;else this.inputType = inputTypes.PASSWORD;
+        }
+      }, {
+        key: "onSubmit",
+        value: function onSubmit() {
+          if (this.isLoading) return;
+          this.isLoading = true;
+
+          if (this.user.username.trim().length === 0 || this.user.password.trim().length === 0) {
+            this.hasLoginError = "Username and password are mandatory";
+            this.isLoading = false;
+          } else {
+            this.hasLoginError = "";
+            this.getUsersAndPasswords();
+          }
+        }
+      }, {
+        key: "getUsersAndPasswords",
+        value: function getUsersAndPasswords() {
+          var _this2 = this;
+
+          this.loginService.login().subscribe(function (res) {
+            console.log(res.logins);
+
+            _this2.validateLogin(res.logins);
+          });
+        }
+      }, {
+        key: "validateLogin",
+        value: function validateLogin(users) {
+          var _this3 = this;
+
+          var user = users.find(function (u) {
+            return u.username === _this3.user.username;
+          });
+          this.isLoading = false;
+
+          if (!user) {
+            this.hasLoginError = "Incorrect password or username!";
+          } else {
+            if (user.password !== this.user.password) this.hasLoginError = "Incorrect password or username.";else {
+              this.hasLoginError = "";
+              this.goToHome();
+            }
+          }
+        }
+      }, {
+        key: "goToHome",
+        value: function goToHome() {
+          this.router.navigate([this.url]);
+        }
+      }]);
+
+      return LoginFormComponent;
+    }();
+
+    LoginFormComponent.ctorParameters = function () {
+      return [{
+        type: src_app_services_login_service__WEBPACK_IMPORTED_MODULE_3__["LoginService"]
+      }, {
+        type: _angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"]
+      }];
+    };
+
+    Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])()], LoginFormComponent.prototype, "url", void 0);
+    LoginFormComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+      selector: 'app-login-form',
+      template: Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"])(__webpack_require__(
+      /*! raw-loader!./login-form.component.html */
+      "./node_modules/raw-loader/dist/cjs.js!./src/app/components/login-form/login-form.component.html"))["default"],
+      styles: [Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"])(__webpack_require__(
+      /*! ./login-form.component.scss */
+      "./src/app/components/login-form/login-form.component.scss"))["default"]]
+    })], LoginFormComponent);
+    /***/
+  },
+
+  /***/
   "./src/app/components/model-manager.service.ts":
   /*!*****************************************************!*\
     !*** ./src/app/components/model-manager.service.ts ***!
@@ -1050,7 +1239,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     "./src/app/components/model-manager.service.ts");
 
     var PageComponent = /*#__PURE__*/_createClass(function PageComponent(route, modelManagerService) {
-      var _this2 = this;
+      var _this4 = this;
 
       _classCallCheck(this, PageComponent);
 
@@ -1059,9 +1248,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       this.modelManagerService.getData({
         path: this.route.snapshot.data.path
       }).then(function (data) {
-        _this2.path = data[_adobe_aem_angular_editable_components__WEBPACK_IMPORTED_MODULE_1__["Constants"].PATH_PROP];
-        _this2.items = data[_adobe_aem_angular_editable_components__WEBPACK_IMPORTED_MODULE_1__["Constants"].ITEMS_PROP];
-        _this2.itemsOrder = data[_adobe_aem_angular_editable_components__WEBPACK_IMPORTED_MODULE_1__["Constants"].ITEMS_ORDER_PROP];
+        _this4.path = data[_adobe_aem_angular_editable_components__WEBPACK_IMPORTED_MODULE_1__["Constants"].PATH_PROP];
+        _this4.items = data[_adobe_aem_angular_editable_components__WEBPACK_IMPORTED_MODULE_1__["Constants"].ITEMS_PROP];
+        _this4.itemsOrder = data[_adobe_aem_angular_editable_components__WEBPACK_IMPORTED_MODULE_1__["Constants"].ITEMS_ORDER_PROP];
       });
     });
 
@@ -1106,6 +1295,73 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     "./node_modules/@adobe/aem-angular-editable-components/__ivy_ngcc__/fesm2015/adobe-aem-angular-editable-components.js");
 
     Object(_adobe_aem_angular_editable_components__WEBPACK_IMPORTED_MODULE_0__["MapTo"])("wcm/foundation/components/responsivegrid")(_adobe_aem_angular_editable_components__WEBPACK_IMPORTED_MODULE_0__["AEMResponsiveGridComponent"]);
+    /***/
+  },
+
+  /***/
+  "./src/app/services/login.service.ts":
+  /*!*******************************************!*\
+    !*** ./src/app/services/login.service.ts ***!
+    \*******************************************/
+
+  /*! exports provided: LoginService */
+
+  /***/
+  function srcAppServicesLoginServiceTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "LoginService", function () {
+      return LoginService;
+    });
+    /* harmony import */
+
+
+    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! tslib */
+    "./node_modules/tslib/tslib.es6.js");
+    /* harmony import */
+
+
+    var _angular_common_http__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! @angular/common/http */
+    "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/http.js");
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! @angular/core */
+    "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+
+    var LoginService = /*#__PURE__*/function () {
+      function LoginService(http) {
+        _classCallCheck(this, LoginService);
+
+        this.http = http;
+      }
+
+      _createClass(LoginService, [{
+        key: "login",
+        value: function login() {
+          return this.http.get('./assets/mocks/people.json');
+        }
+      }]);
+
+      return LoginService;
+    }();
+
+    LoginService.ctorParameters = function () {
+      return [{
+        type: _angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpClient"]
+      }];
+    };
+
+    LoginService = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Injectable"])({
+      providedIn: 'root'
+    })], LoginService);
     /***/
   },
 

@@ -19,12 +19,12 @@ export class LoginFormComponent implements OnInit {
   @Input() url: string;
 
   inputType: inputTypes = inputTypes.PASSWORD;
-  hasLoginError: string = "";
-  user: User = { 
+  hasLoginError = "";
+  user: User = {
     username: "",
     password: ""
   };
-  isLoading: boolean = false;
+  isLoading = false;
 
   constructor(private loginService: LoginService, private router: Router) { }
 
@@ -47,7 +47,7 @@ export class LoginFormComponent implements OnInit {
       this.hasLoginError = "";
       this.getUsersAndPasswords()
     }
-  }  
+  }
 
   getUsersAndPasswords() {
     this.loginService.login().subscribe((res: any) => {
@@ -65,11 +65,11 @@ export class LoginFormComponent implements OnInit {
     } else {
       if (user.password !== this.user.password) this.hasLoginError = "Incorrect password or username.";
       else {
-        this.hasLoginError = ""; 
+        this.hasLoginError = "";
         this.goToHome();
-      }      
+      }
     }
-  }     
+  }
 
   goToHome() {
     this.router.navigate([this.url]);
