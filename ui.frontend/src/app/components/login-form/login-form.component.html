@@ -1,0 +1,31 @@
+<div class="login__form-body">
+    <h1 class="login__sub-title">Login</h1>
+    <div class="login__form-group">
+        <input 
+            [(ngModel)]="user.username"
+            type="text" 
+            id="username"
+            name="username"
+            class="login__form-input" 
+            placeholder="Usuario"
+        />
+        <img src="../assets/svgs/user.svg" class="login__form-img" alt="">
+    </div>
+    <div class="login__form-group">
+        <input 
+            [(ngModel)]="user.password"
+            [type]="inputType" 
+            id="password" 
+            name="password" 
+            class="login__form-input"
+            placeholder="Senha"
+        />
+        <img (click)="changeInputType()" src="../assets/svgs/padlock.svg" class="login__form-img" alt="">
+    </div>
+    <div class="login__form-group login__form-error">
+        <p *ngIf="hasLoginError.length > 0">{{ hasLoginError }}</p>
+    </div>
+    <div [disabled]="isLoading" (click)="onSubmit()" class="login__form-group">
+        <button type="submit" class="login__form-submit-btn">Continuar</button>
+    </div>
+</div>

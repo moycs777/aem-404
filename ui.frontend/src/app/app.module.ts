@@ -8,7 +8,7 @@ import "./components/import-components";
 import { ModelManagerService } from "./components/model-manager.service";
 import { PageComponent } from "./components/page/page.component";
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { HttpClientModule } from '@angular/common/http';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
 
 import { AemAngularCoreWcmComponentsTabsV1 } from "@adobe/aem-core-components-angular-spa/containers/tabs/v1";
 
@@ -26,6 +26,7 @@ import { AemAngularCoreWcmComponentsAccordionV1 } from "@adobe/aem-core-componen
 import { AemAngularCoreWcmComponentsLanguageNavigationV1 } from "@adobe/aem-core-components-angular-base/layout/language-navigation/v1";
 import { BasicComponentComponent } from "./components/basic-component/basic-component.component";
 import { MyComponentComponent } from './components/my-component/my-component.component';
+import { LoginFormComponent } from './components/login-form/login-form.component';
 
 @NgModule({
   imports: [
@@ -44,11 +45,11 @@ import { MyComponentComponent } from './components/my-component/my-component.com
     AemAngularCoreWcmComponentsSeparatorV1,
     AemAngularCoreWcmComponentsLanguageNavigationV1,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
   ],
-  providers: [ModelManagerService, { provide: APP_BASE_HREF, useValue: "/" }],
-  declarations: [AppComponent, PageComponent, BasicComponentComponent, MyComponentComponent],
-  entryComponents: [PageComponent, BasicComponentComponent, MyComponentComponent],
+  providers: [ModelManagerService, HttpClientModule, { provide: APP_BASE_HREF, useValue: "/" }],
+  declarations: [AppComponent, PageComponent, BasicComponentComponent, MyComponentComponent, LoginFormComponent],
+  entryComponents: [PageComponent, BasicComponentComponent, MyComponentComponent, LoginFormComponent],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
