@@ -7,6 +7,8 @@ import { AppComponent } from "./app.component";
 import "./components/import-components";
 import { ModelManagerService } from "./components/model-manager.service";
 import { PageComponent } from "./components/page/page.component";
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AemAngularCoreWcmComponentsTabsV1 } from "@adobe/aem-core-components-angular-spa/containers/tabs/v1";
 
@@ -41,6 +43,8 @@ import { MyComponentComponent } from './components/my-component/my-component.com
     AemAngularCoreWcmComponentsAccordionV1,
     AemAngularCoreWcmComponentsSeparatorV1,
     AemAngularCoreWcmComponentsLanguageNavigationV1,
+    FormsModule,
+    HttpClientModule
   ],
   providers: [ModelManagerService, { provide: APP_BASE_HREF, useValue: "/" }],
   declarations: [AppComponent, PageComponent, BasicComponentComponent, MyComponentComponent],
