@@ -58,14 +58,18 @@ export class LoginFormComponent implements OnInit {
   }
 
   validateLogin(users: []): void {
-    const user: User = users.find((u: any) => u.username === this.user.username);
+    const user: any = users.find((u: any) => u.login === this.user.username);
     this.isLoading = false;
-
-    if (!user) {
+    console.log('user : ', user);
+    console.log('user.password : ', user.password);
+    console.log('this.user.password : ', this.user.password);
+    console.log('!== : ', (user.password+"") !== this.user.password);
+    if (user !== undefined && !user) {
       this.hasLoginError = "Incorrect password or username!";
     } else {
-      if (user.password !== this.user.password) this.hasLoginError = "Incorrect password or username.";
+      if ((user.password+"") !== this.user.password) this.hasLoginError = "Incorrect password or username.";
       else {
+        console.log('success user : ', user);
         this.hasLoginError = "";
         this.goToHome();
       }

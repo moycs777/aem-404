@@ -27,6 +27,7 @@ import { AemAngularCoreWcmComponentsLanguageNavigationV1 } from "@adobe/aem-core
 import { BasicComponentComponent } from "./components/basic-component/basic-component.component";
 import { MyComponentComponent } from './components/my-component/my-component.component';
 import { LoginFormComponent } from './components/login-form/login-form.component';
+import { LoginFormContainerComponent } from './components/login-form-container/login-form-container.component';
 
 @NgModule({
   imports: [
@@ -48,8 +49,8 @@ import { LoginFormComponent } from './components/login-form/login-form.component
     HttpClientModule,
   ],
   providers: [ModelManagerService, HttpClientModule, { provide: APP_BASE_HREF, useValue: "/" }],
-  declarations: [AppComponent, PageComponent, BasicComponentComponent, MyComponentComponent, LoginFormComponent],
-  entryComponents: [PageComponent, BasicComponentComponent, MyComponentComponent, LoginFormComponent],
+  declarations: [AppComponent, PageComponent, BasicComponentComponent, MyComponentComponent, LoginFormComponent, LoginFormContainerComponent],
+  entryComponents: [PageComponent, BasicComponentComponent, MyComponentComponent, LoginFormComponent, LoginFormContainerComponent],
   bootstrap: [AppComponent],
 })
 export class AppModule {}

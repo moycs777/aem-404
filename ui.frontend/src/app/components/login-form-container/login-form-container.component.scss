@@ -1,0 +1,81 @@
+@import url('http://fonts.cdnfonts.com/css/mark-pro');
+
+input::-ms-reveal,
+input::-ms-clear {
+  display: none;
+}
+.login__background--mobile {
+    display:none;
+}
+
+.login__main-container {
+    display: flex;
+    flex-direction: row;
+}
+.login__form-container {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 100vh;
+    background: #26292C;
+    color: #E0E0E0;
+}
+.login__background{ 
+    width: 50%;
+    height: 100vh;
+    background-image: url('../../../assets/images/login__background.png');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+.login__form-inner-container {
+    width: 50%;
+    margin-top: 150px;
+}
+.login__form-header > h1 {
+    margin-bottom: 0;
+    font-family: 'Mark Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 76px;
+}
+.login__form-text {
+    max-width: 301px;
+    font-family: 'Mark Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+.login__logo {
+    margin-top: 35px;
+}
+
+@media (max-width: 800px) {
+    .login__main-container {
+        flex-direction: column;
+    }
+    .login__form-container {
+        width: 100%;
+        height: auto;
+    }
+    .login__background {
+        display: none;
+    }
+    .login__form-inner-container {
+        margin-top: 15px;
+        width: 73%;
+    }
+    .login__background--mobile { 
+        display: block;
+        text-align: center;
+    }
+    .login__form-header {
+        margin-top: 80px;
+    }
+    .login__background--mobile > img {
+        width: 306px;
+        height: 69px;
+    }
+}
