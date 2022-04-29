@@ -1,3 +1,4 @@
+import { MapTo } from '@adobe/aem-spa-component-mapping';
 import { Component, Input, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { LoginService } from 'src/app/services/login.service';
@@ -74,5 +75,5 @@ export class LoginFormComponent implements OnInit {
   goToHome() {
     this.router.navigate([this.url]);
   }
-
 }
+MapTo("angularapp/components/login-form")(LoginFormComponent);

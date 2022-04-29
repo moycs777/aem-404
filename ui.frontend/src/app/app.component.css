@@ -48,15 +48,15 @@ input::-ms-clear {
     font-size: 16px;
     line-height: 20px;
 }
-.login__sub-title {
+/* .login__sub-title {
     margin-top: 25%;
     font-family: 'Mark Pro';
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
     line-height: 38px;
-}
-.login__form-group {
+} */
+/* .login__form-group {
     position: relative;
     width: 100%;
     height: 60px;
@@ -82,7 +82,6 @@ input::-ms-clear {
     color: #E0E0E0;
 }
 .login__form-img {
-    /* width: 16px; */
     position: absolute;
     right: 5%;
     top: 1rem;
@@ -103,7 +102,7 @@ input::-ms-clear {
     background: linear-gradient(90deg, #FF2D04 0%, #C13216 100%);
     box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.15);
     border-radius: 50px;
-}
+} */
 .login__logo {
     margin-top: 35px;
 }
