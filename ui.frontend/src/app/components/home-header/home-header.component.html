@@ -6,5 +6,9 @@
         <p>11:30</p>
         <small class="header__full-date">terça-feira, 17 de março de 2020</small>
     </div>
-    <div class="weather"></div>
+    <div class="weather">
+        <p>{{ currentTemperature }}</p>
+        <p>{{ location }} {{ icon }}</p>
+        <img [src]="icon" alt="current-weather-icon">
+    </div>
 </div>

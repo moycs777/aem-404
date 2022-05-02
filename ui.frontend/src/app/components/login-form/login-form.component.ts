@@ -67,6 +67,7 @@ export class LoginFormComponent implements OnInit {
       else {
         console.log('success user : ', user);
         this.hasLoginError = "";
+        this.setCurrentUser(user);
         this.goToHome();
       }
     }
@@ -75,6 +76,10 @@ export class LoginFormComponent implements OnInit {
   goToHome() {
     console.log("this.url", this.url);
     this.router.navigate([this.url]);
+  }
+
+  setCurrentUser(user: any) {
+    this.loginService.setCurrentUser(user);
   }
 }
 MapTo("angularapp/components/login-form")(LoginFormComponent);
