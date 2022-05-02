@@ -1,5 +1,5 @@
 import { MapTo } from '@adobe/aem-spa-component-mapping';
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-login-form-container',
@@ -7,10 +7,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./login-form-container.component.scss']
 })
 export class LoginFormContainerComponent implements OnInit {
-
+  @Input() title: string;
+  @Input() subTitle: string;
+  @Input() url: string;
+  @Input() myImage: any
   constructor() { }
 
   ngOnInit(): void {
+    console.log('myImage', this.myImage);
   }
 
 }

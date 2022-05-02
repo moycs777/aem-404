@@ -5,10 +5,12 @@
                 <img src="../assets/svgs/Logo-Compasso-Branco-hor 1.svg" class="login__logo" alt="">
             </div>
             <div class="login__form-header">
-                <h1>Olá,</h1>
-                <p class="login__form-text">Para continuar navegando de forma segura, efetue o login na rede.</p>
+                <h1>{{ title }}</h1>
+                <p class="login__form-text">{{ subTitle }}</p>
             </div>
-            <app-login-form></app-login-form>
+            <app-login-form
+                [url]="url"
+            ></app-login-form>
         </div>
     </div>
 

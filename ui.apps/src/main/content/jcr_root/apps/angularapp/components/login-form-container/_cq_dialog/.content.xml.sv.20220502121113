@@ -39,37 +39,6 @@
                       jcr:primaryType="nt:unstructured"
                       name="./title"
                       sling:resourceType="granite/ui/components/coral/foundation/form/textfield"/>
-               <subTitle cq-msm-lockable="./subTitle"
-                         fieldDescription="Titulo principal"
-                         fieldLabel="Sub Titulo"
-                         jcr:primaryType="nt:unstructured"
-                         name="./subTitle"
-                         sling:resourceType="granite/ui/components/coral/foundation/form/textfield"/>
-               <url cq-msm-lockable="./url"
-                    fieldLabel="URL"
-                    jcr:primaryType="nt:unstructured"
-                    name="./url"
-                    rootPath="/content"
-                    sling:resourceType="cq/gui/components/coral/common/form/pagefield"/>
-               <myImageResType jcr:primaryType="nt:unstructured"
-                               name="./myImage/sling:resourceType"
-                               sling:resourceType="granite/ui/components/coral/foundation/form/hidden"
-                               value="core/wcm/components/image/v2/image"/>
-               <myImage allowUpload="{Boolean}false"
-                        autoStart="{Boolean}false"
-                        class="cq-droptarget"
-                        cq-msm-lockable="./myImage/file"
-                        fieldLabel="Image Test"
-                        fileNameParameter="./myImage/fileName"
-                        fileReferenceParameter="./myImage/fileReference"
-                        jcr:primaryType="nt:unstructured"
-                        mimeTypes="[image/gif,image/jpeg,image/png,image/webp,image/tiff,image/svg+xml]"
-                        multiple="{Boolean}false"
-                        name="./myImage/file"
-                        sling:resourceType="cq/gui/components/authoring/dialog/fileupload"
-                        title="Drag to select image"
-                        uploadUrl="${suffix.path}"
-                        useHTML5="{Boolean}true"/>
             </items>
          </column>
       </items>

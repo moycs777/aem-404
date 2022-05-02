@@ -18,10 +18,8 @@
 
 package com.angularapp.core.models.impl;
 
-import com.adobe.acs.commons.models.injectors.annotation.ChildResourceFromRequest;
 import com.adobe.cq.export.json.ComponentExporter;
 import com.adobe.cq.export.json.ExporterConstants;
-import com.adobe.cq.wcm.core.components.models.Image;
 import com.angularapp.core.models.LoginFormContainer;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import org.apache.sling.api.SlingHttpServletRequest;
@@ -46,11 +44,7 @@ public class LoginFormContainerImpl
     @ValueMapValue(injectionStrategy = InjectionStrategy.OPTIONAL)
     private String title;
     @ValueMapValue(injectionStrategy = InjectionStrategy.OPTIONAL)
-    private String subTitle;
-    @ValueMapValue(injectionStrategy = InjectionStrategy.OPTIONAL)
     private String url;
-    @ChildResourceFromRequest(injectionStrategy = InjectionStrategy.OPTIONAL)
-    private Image myImage;
     @SlingObject
     private Resource resource;
 
@@ -60,19 +54,9 @@ public class LoginFormContainerImpl
     }
 
     @Override
-    public String getSubTitle() {
-        return subTitle;
-    }
-
-    @Override
     @JsonProperty("url")
     public String getUrl() {
         return url;
-    }
-
-    @Override
-    public Image getMyImage() {
-        return myImage;
     }
 
     @Override

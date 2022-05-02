@@ -36,6 +36,31 @@
         "label": "Titulo",
         "json-expose": true,
         "attributes": {}
+      },
+      {
+        "field": "subTitle",
+        "description": "Titulo principal",
+        "javadoc": "Returns a text value tooltip used somewhere in the component",
+        "type": "textfield",
+        "label": "Sub Titulo",
+        "json-expose": true,
+        "attributes": {}
+      },
+      {
+        "field": "url",
+        "label": "URL",
+        "type": "pagefield",
+        "json-expose": true,
+        "json-property": "url",
+        "attributes": {
+            "rootPath": "/content"
+        }
+      },
+      {
+        "field": "myImage",
+        "type": "image",
+        "label": "Image Test",
+        "json-expose": true
       }
     ]
   }

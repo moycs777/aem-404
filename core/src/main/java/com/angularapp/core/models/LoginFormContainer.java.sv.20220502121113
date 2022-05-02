@@ -19,8 +19,6 @@
 package com.angularapp.core.models;
 
 import com.adobe.cq.export.json.ComponentExporter;
-import com.adobe.cq.wcm.core.components.models.Image;
-import com.fasterxml.jackson.annotation.JsonProperty;
 import org.osgi.annotation.versioning.ConsumerType;
 
 
@@ -41,18 +39,5 @@ public interface LoginFormContainer
      * 
      */
     String getTitle();
-
-    /**
-     * Returns a text value tooltip used somewhere in the component
-     * 
-     * @return String
-     * 
-     */
-    String getSubTitle();
-
-    @JsonProperty("url")
-    String getUrl();
-
-    Image getMyImage();
 
 }

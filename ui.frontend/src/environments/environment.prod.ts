@@ -20,4 +20,5 @@ export const environment = {
   production: true,
   publicUrl:
     '/etc.clientlibs/angularapp/clientlibs/clientlib-angular/resources',
+  weatherApiKey: '86d7c6e1483b4fa987a190219220205',
 };

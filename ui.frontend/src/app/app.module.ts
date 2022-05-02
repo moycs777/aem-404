@@ -28,6 +28,11 @@ import { BasicComponentComponent } from "./components/basic-component/basic-comp
 import { MyComponentComponent } from './components/my-component/my-component.component';
 import { LoginFormComponent } from './components/login-form/login-form.component';
 import { LoginFormContainerComponent } from './components/login-form-container/login-form-container.component';
+import { HomeContainerComponent } from './components/home-container/home-container.component';
+import { HomeHeaderComponent } from './components/home-header/home-header.component';
+import { HomeBodyComponent } from './components/home-body/home-body.component';
+import { HomeFooterComponent } from './components/home-footer/home-footer.component';
+import { HomeWeatherComponent } from './components/home-weather/home-weather.component';
 
 @NgModule({
   imports: [
@@ -49,7 +54,7 @@ import { LoginFormContainerComponent } from './components/login-form-container/l
     HttpClientModule,
   ],
   providers: [ModelManagerService, HttpClientModule, { provide: APP_BASE_HREF, useValue: "/" }],
-  declarations: [AppComponent, PageComponent, BasicComponentComponent, MyComponentComponent, LoginFormComponent, LoginFormContainerComponent],
+  declarations: [AppComponent, PageComponent, BasicComponentComponent, MyComponentComponent, LoginFormComponent, LoginFormContainerComponent, HomeContainerComponent, HomeHeaderComponent, HomeBodyComponent, HomeFooterComponent, HomeWeatherComponent],
   entryComponents: [PageComponent, BasicComponentComponent, MyComponentComponent, LoginFormComponent, LoginFormContainerComponent],
   bootstrap: [AppComponent],
 })
