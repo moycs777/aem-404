@@ -1,25 +1,39 @@
-.header__logo {
-    margin-top: 35px;
+.header__container {
+    display: flex;
+    width: 100%;
+    height: 150px;
+    background: #E5E5E5;
 }
-.header__hour {
-    margin: 0px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 144px;
-    // line-height: 216px;
-    text-align: center;
-    color: #222222;
-    p {
-        margin: 0px;
+.header__logo-container {
+    width: 20%;
+    margin-top: 35px;
+    img {
+        width: 300px;
     }
 }
-.header__full-date {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 21px;
+.header__hour-container {
+    width: 60%;
     text-align: center;
-    color: #222222;
+    p {
+        margin: 10px;
+        margin-bottom: 0px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 144px;
+        text-align: center;
+        color: #222222;
+    }
+    .header__full-date {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        text-align: center;
+        color: #222222;
+    }
+}
+.header__weather-container {
+    width: 20%;
 }
