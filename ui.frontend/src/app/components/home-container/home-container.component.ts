@@ -1,3 +1,4 @@
+import { MapTo } from '@adobe/aem-spa-component-mapping';
 import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
@@ -10,6 +11,7 @@ export class HomeContainerComponent implements OnInit {
   @Input() logoBody;
   @Input() bodyResume;
   @Input() resfreshTime;
+  @Input() loginUrl;
 
   constructor() { }
 
@@ -17,3 +19,4 @@ export class HomeContainerComponent implements OnInit {
   }
 
 }
+MapTo('angularapp/components/home-container')(HomeContainerComponent);

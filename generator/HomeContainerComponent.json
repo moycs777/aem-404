@@ -1,0 +1,76 @@
+{
+  "project-settings": {
+    "code-owner": "Angular App",
+    "bundle-path": "../core/src/main/java",
+    "test-path": "../core/src/test/java",
+    "apps-path": "../ui.apps/src/main/content/jcr_root/apps",
+    "component-path": "angularapp",
+    "model-interface-pkg": "com.angularapp.core.models",
+    "model-impl-pkg": "com.angularapp.core.models.impl"
+  },
+  "name": "home-container",
+  "title": "Home Container Component",
+  "group": "Angular App - Content",
+  "type": "components",
+  "options": {
+    "js": false,
+    "jstxt": false,
+    "css": false,
+    "csstxt": false,
+    "html": false,
+    "html-content": false,
+    "slingmodel": true,
+    "testclass": false,
+    "junit-major-version": 5,
+    "content-exporter": true,
+    "model-adaptables": [
+      "request"
+    ],
+    "generic-javadoc": false,
+    "properties": [
+        {
+            "field": "logoHeader",
+            "type": "image",
+            "label": "Logo for the header",
+            "json-expose": true
+        },
+        {
+            "field": "logoBody",
+            "type": "image",
+            "label": "Image to serve as body half background",
+            "json-expose": true
+        },
+        {
+            "field": "bodyResume",
+            "description": "Body's text",
+            "javadoc": "Returns a text value tooltip used somewhere in the component",
+            "type": "textfield",
+            "label": "Titulo",
+            "json-expose": true,
+            "attributes": {}
+        }, 
+        {
+            "field": "resfreshTime",
+            "type": "numberfield",
+            "label": "Loggedin session time",
+            "json-expose": true,
+            "attributes": {
+                "max": "{Double}20",
+                "min": "{Double}0",
+                "step": "1",
+                "value": "{Long}20"
+            }
+        },
+        {
+            "field": "loginUrl",
+            "label": "URL for the not logged user",
+            "type": "pagefield",
+            "json-expose": true,
+            "json-property": "url",
+            "attributes": {
+                "rootPath": "/content"
+            }
+        }      
+    ]
+  }
+}

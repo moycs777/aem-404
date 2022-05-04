@@ -10,7 +10,6 @@ export class HomeBodyComponent implements OnInit {
   @Input() bodyResume;
   constructor() { }
 
-  ngOnInit(): void {
-  }
+  ngOnInit(): void {  }
 
 }
