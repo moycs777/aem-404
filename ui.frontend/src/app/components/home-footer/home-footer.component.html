@@ -1,3 +1,23 @@
-<div class="container">
-    <a href="#" (click)="logOut()">logout</a>
+<div class="home-footer__container">
+    <div class="home-footer__left-container">
+        <p class="home-footer__left-container-text">Essa janela do navegador é usada para manter sua sessão de autenticação ativa. 
+            Deixe-a aberta em segundo plano e abra uma nova janela para continuar a navegar.
+        </p>
+        <img class="home-footer__left-container-img" src="../../../assets/svgs/line4.svg" alt="">
+    </div>
+    <div class="home-footer__right-container">
+        <div class="home-footer__timer-container">
+            <p>Application refresh in</p>
+            <div>
+                <h3>600</h3>
+                <small>seconds</small>                
+            </div>
+        </div>
+        <div class="home-footer__options-container">
+            <div><p>Continuar Navegando</p></div>
+            <div>
+                <a href="#" (click)="logOut()">logout</a>
+            </div>
+        </div>
+    </div>
 </div>
