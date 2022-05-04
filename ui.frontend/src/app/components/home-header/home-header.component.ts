@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, DoCheck, Input  } from '@angular/core';
 import { WeatherApiService } from 'src/app/services/weather-api.service';
 
 @Component({
@@ -6,14 +6,24 @@ import { WeatherApiService } from 'src/app/services/weather-api.service';
   templateUrl: './home-header.component.html',
   styleUrls: ['./home-header.component.scss']
 })
-export class HomeHeaderComponent implements OnInit {
+export class HomeHeaderComponent implements OnInit, DoCheck  {
+  @Input() logoHeader;
   public location: any = "";
   public icon: any = "";
   public currentTemperature: string = '';
+  public currentTime = new Date(); 
 
   constructor(private weatherApi: WeatherApiService) { }
 
   ngOnInit(): void {
+    this.getUserData();
+  }
+
+  ngDoCheck(): void {
+    this.currentTime = new Date();
+  }
+
+  getUserData() {
     this.weatherApi.getLocalPrevision().subscribe((data: any) => {
       this.location = `${data.location.name}, ${data.location.region}`;
 
@@ -23,5 +33,4 @@ export class HomeHeaderComponent implements OnInit {
       this.icon = `../../../assets/icons/weather/64x64/day/${weatherIcon}`;
     })
   }
-
 }

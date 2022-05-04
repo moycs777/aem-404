@@ -1,7 +1,14 @@
 <div class="home__container" style="display: block;">
-    <app-home-header>
+    <app-home-header
+        [logoHeader]="logoHeader"
+    >
         <app-home-weatherr></app-home-weatherr>
     </app-home-header>
-    <app-home-body></app-home-body>
-    <app-home-footer></app-home-footer>
+    <app-home-body
+        [logoBody]="logoBody"
+        [bodyResume]="bodyResume"
+    ></app-home-body>
+    <app-home-footer
+        [resfreshTime]="resfreshTime"
+    ></app-home-footer>
 </div>

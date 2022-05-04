@@ -1,6 +1,8 @@
 import { SpaAngularEditableComponentsModule } from "@adobe/aem-angular-editable-components";
 import { APP_BASE_HREF } from "@angular/common";
-import { NgModule } from "@angular/core";
+import { NgModule, LOCALE_ID } from "@angular/core";
+import { registerLocaleData } from '@angular/common';
+
 import { BrowserModule } from "@angular/platform-browser";
 import { AppRoutingModule } from "./app-routing.module";
 import { AppComponent } from "./app.component";
@@ -9,7 +11,6 @@ import { ModelManagerService } from "./components/model-manager.service";
 import { PageComponent } from "./components/page/page.component";
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
-
 import { AemAngularCoreWcmComponentsTabsV1 } from "@adobe/aem-core-components-angular-spa/containers/tabs/v1";
 
 import { AemAngularCoreWcmComponentsTitleV2 } from "@adobe/aem-core-components-angular-base/authoring/title/v2";
@@ -33,7 +34,10 @@ import { HomeHeaderComponent } from './components/home-header/home-header.compon
 import { HomeBodyComponent } from './components/home-body/home-body.component';
 import { HomeFooterComponent } from './components/home-footer/home-footer.component';
 import { HomeWeatherComponent } from './components/home-weather/home-weather.component';
+import localePT from '@angular/common/locales/pt';
 
+
+registerLocaleData(localePT);
 @NgModule({
   imports: [
     BrowserModule,
@@ -53,9 +57,10 @@ import { HomeWeatherComponent } from './components/home-weather/home-weather.com
     FormsModule,
     HttpClientModule,
   ],
-  providers: [ModelManagerService, HttpClientModule, { provide: APP_BASE_HREF, useValue: "/" }],
+  providers: [ModelManagerService, HttpClientModule, { provide: LOCALE_ID, useValue: 'pt-br' }, { provide: APP_BASE_HREF, useValue: "/" }],
   declarations: [AppComponent, PageComponent, BasicComponentComponent, MyComponentComponent, LoginFormComponent, LoginFormContainerComponent, HomeContainerComponent, HomeHeaderComponent, HomeBodyComponent, HomeFooterComponent, HomeWeatherComponent],
   entryComponents: [PageComponent, BasicComponentComponent, MyComponentComponent, LoginFormComponent, LoginFormContainerComponent],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
+  

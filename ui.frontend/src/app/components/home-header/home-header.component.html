@@ -1,16 +1,17 @@
 <div class="header__container">
     <div class="header__logo-container">
-        <img src="../../../assets/svgs/compassuol-logo-black.svg" class="header__logo" alt="">
+        <img [src]="logoHeader" class="header__logo" alt="">
+        <!-- <img src="../../../assets/svgs/compassuol-logo-black.svg" class="header__logo" alt=""> -->
     </div>
     <div class="header__hour-container">
-        <p>11:30</p>
-        <small class="header__full-date">terça-feira, 17 de março de 2020</small>
+        <p>{{ currentTime | date: 'shortTime' }}</p>
+        <small class="header__full-date">{{ currentTime  | date: 'fullDate':' ':'pt-BR'  }}</small>
     </div>
     <div class="header__weather-container">
-        <p>{{ location }}</p>
-        <div style="display: flex; text-align: end;">
-            <img [src]="icon" alt="current-weather-icon">
-            <p>{{ currentTemperature }}°</p>
+        <p class="header__weather__location">{{ location }}</p>
+        <div class="header__weather__temperature-container">
+            <img class="header__weather-icon" [src]="icon" alt="current-weather-icon">
+            <p class="header__weather__temperature">{{ currentTemperature }}°</p>
         </div>
     </div>
 </div>

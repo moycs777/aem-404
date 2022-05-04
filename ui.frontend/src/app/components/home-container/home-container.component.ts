@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-home-container',
@@ -6,6 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home-container.component.scss']
 })
 export class HomeContainerComponent implements OnInit {
+  @Input() logoHeader;
+  @Input() logoBody;
+  @Input() bodyResume;
+  @Input() resfreshTime;
 
   constructor() { }
 

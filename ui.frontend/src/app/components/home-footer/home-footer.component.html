@@ -8,14 +8,14 @@
     <div class="home-footer__right-container">
         <div class="home-footer__timer-container">
             <p>Application refresh in</p>
-            <div>
-                <h3>600</h3>
-                <small>seconds</small>                
+            <div class="home-footer__timer-container_seconds">
+                <h3>{{ startAt }} <small>seconds</small></h3>
+                                
             </div>
         </div>
         <div class="home-footer__options-container">
-            <div><p>Continuar Navegando</p></div>
-            <div>
+            <div class="home-footer__options-container-text"><p>Continuar Navegando</p></div>
+            <div class="home-footer__options-container-logout">
                 <a href="#" (click)="logOut()">logout</a>
             </div>
         </div>
