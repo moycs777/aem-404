@@ -7,14 +7,14 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./login-form-container.component.scss']
 })
 export class LoginFormContainerComponent implements OnInit {
-  @Input() title: string;
+  @Input() title = 'my title';
   @Input() subTitle: string;
   @Input() url: string;
   @Input() myImage: any
   constructor() { }
 
   ngOnInit(): void {
-    console.log('myImage', this.myImage);
+    console.log('asdf myImage', this.myImage, this.title, this.subTitle, this.url);
   }
 
 }

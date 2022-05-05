@@ -9,10 +9,9 @@ import { WeatherApiService } from 'src/app/services/weather-api.service';
 export class HomeHeaderComponent implements OnInit, DoCheck  {
   @Input() logoHeader;
   public location: any = "";
-  public icon: any = "";
-  public currentTemperature: string = '';
-  public currentTime = new Date(); 
-
+  public icon = "";
+  public currentTemperature = '';
+  public currentTime = new Date();
   constructor(private weatherApi: WeatherApiService) { }
 
   ngOnInit(): void {

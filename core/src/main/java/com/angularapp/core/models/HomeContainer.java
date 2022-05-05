@@ -19,6 +19,7 @@
 package com.angularapp.core.models;
 
 import com.adobe.cq.export.json.ComponentExporter;
+import com.adobe.cq.wcm.core.components.models.Image;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import org.osgi.annotation.versioning.ConsumerType;
 
@@ -33,9 +34,12 @@ public interface HomeContainer
 {
 
 
-    com.adobe.cq.wcm.core.components.models.Image getLogoHeader();
+    Image getLogoHeader();
 
-    com.adobe.cq.wcm.core.components.models.Image getLogoBody();
+    Long getResfreshTime();
+
+    @JsonProperty("url")
+    String getLoginUrl();
 
     /**
      * Returns a text value tooltip used somewhere in the component
@@ -43,11 +47,62 @@ public interface HomeContainer
      * @return String
      * 
      */
-    String getBodyResume();
+    String getBodyResume1en();
 
-    Long getResfreshTime();
+    /**
+     * Returns a text value tooltip used somewhere in the component
+     * 
+     * @return String
+     * 
+     */
+    String getBodyResume1pt();
 
-    @JsonProperty("url")
-    String getLoginUrl();
+    /**
+     * Returns a text value tooltip used somewhere in the component
+     * 
+     * @return String
+     * 
+     */
+    String getBodyResume2en();
+
+    /**
+     * Returns a text value tooltip used somewhere in the component
+     * 
+     * @return String
+     * 
+     */
+    String getBodyResume2pt();
+
+    /**
+     * Returns a text value tooltip used somewhere in the component
+     * 
+     * @return String
+     * 
+     */
+    String getBodyResume3en();
+
+    /**
+     * Returns a text value tooltip used somewhere in the component
+     * 
+     * @return String
+     * 
+     */
+    String getBodyResume3pt();
+
+    /**
+     * Returns a text value tooltip used somewhere in the component
+     * 
+     * @return String
+     * 
+     */
+    String getBodyResume4en();
+
+    /**
+     * Returns a text value tooltip used somewhere in the component
+     * 
+     * @return String
+     * 
+     */
+    String getBodyResume4pt();
 
 }

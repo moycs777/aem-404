@@ -63,4 +63,3 @@ registerLocaleData(localePT);
   bootstrap: [AppComponent],
 })
 export class AppModule {}
-  

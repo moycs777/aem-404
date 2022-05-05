@@ -6,8 +6,14 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./home-body.component.scss']
 })
 export class HomeBodyComponent implements OnInit {
-  @Input() logoBody;
-  @Input() bodyResume;
+  @Input() bodyResume1en;
+  @Input() bodyResume1pt;
+  @Input() bodyResume2en;
+  @Input() bodyResume2pt;
+  @Input() bodyResume3en;
+  @Input() bodyResume3pt;
+  @Input() bodyResume4en;
+  @Input() bodyResume4pt;
   constructor() { }
 
   ngOnInit(): void {  }

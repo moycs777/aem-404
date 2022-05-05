@@ -21,6 +21,7 @@ package com.angularapp.core.models.impl;
 import com.adobe.acs.commons.models.injectors.annotation.ChildResourceFromRequest;
 import com.adobe.cq.export.json.ComponentExporter;
 import com.adobe.cq.export.json.ExporterConstants;
+import com.adobe.cq.wcm.core.components.models.Image;
 import com.angularapp.core.models.HomeContainer;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import org.apache.sling.api.SlingHttpServletRequest;
@@ -43,31 +44,33 @@ public class HomeContainerImpl
 {
 
     @ChildResourceFromRequest(injectionStrategy = InjectionStrategy.OPTIONAL)
-    private com.adobe.cq.wcm.core.components.models.Image logoHeader;
-    @ChildResourceFromRequest(injectionStrategy = InjectionStrategy.OPTIONAL)
-    private com.adobe.cq.wcm.core.components.models.Image logoBody;
-    @ValueMapValue(injectionStrategy = InjectionStrategy.OPTIONAL)
-    private String bodyResume;
+    private Image logoHeader;
     @ValueMapValue(injectionStrategy = InjectionStrategy.OPTIONAL)
     private Long resfreshTime;
     @ValueMapValue(injectionStrategy = InjectionStrategy.OPTIONAL)
     private String loginUrl;
+    @ValueMapValue(injectionStrategy = InjectionStrategy.OPTIONAL)
+    private String bodyResume1en;
+    @ValueMapValue(injectionStrategy = InjectionStrategy.OPTIONAL)
+    private String bodyResume1pt;
+    @ValueMapValue(injectionStrategy = InjectionStrategy.OPTIONAL)
+    private String bodyResume2en;
+    @ValueMapValue(injectionStrategy = InjectionStrategy.OPTIONAL)
+    private String bodyResume2pt;
+    @ValueMapValue(injectionStrategy = InjectionStrategy.OPTIONAL)
+    private String bodyResume3en;
+    @ValueMapValue(injectionStrategy = InjectionStrategy.OPTIONAL)
+    private String bodyResume3pt;
+    @ValueMapValue(injectionStrategy = InjectionStrategy.OPTIONAL)
+    private String bodyResume4en;
+    @ValueMapValue(injectionStrategy = InjectionStrategy.OPTIONAL)
+    private String bodyResume4pt;
     @SlingObject
     private Resource resource;
 
     @Override
-    public com.adobe.cq.wcm.core.components.models.Image getLogoHeader() {
+    public Image getLogoHeader() {
         return logoHeader;
-    }
-
-    @Override
-    public com.adobe.cq.wcm.core.components.models.Image getLogoBody() {
-        return logoBody;
-    }
-
-    @Override
-    public String getBodyResume() {
-        return bodyResume;
     }
 
     @Override
@@ -79,6 +82,46 @@ public class HomeContainerImpl
     @JsonProperty("url")
     public String getLoginUrl() {
         return loginUrl;
+    }
+
+    @Override
+    public String getBodyResume1en() {
+        return bodyResume1en;
+    }
+
+    @Override
+    public String getBodyResume1pt() {
+        return bodyResume1pt;
+    }
+
+    @Override
+    public String getBodyResume2en() {
+        return bodyResume2en;
+    }
+
+    @Override
+    public String getBodyResume2pt() {
+        return bodyResume2pt;
+    }
+
+    @Override
+    public String getBodyResume3en() {
+        return bodyResume3en;
+    }
+
+    @Override
+    public String getBodyResume3pt() {
+        return bodyResume3pt;
+    }
+
+    @Override
+    public String getBodyResume4en() {
+        return bodyResume4en;
+    }
+
+    @Override
+    public String getBodyResume4pt() {
+        return bodyResume4pt;
     }
 
     @Override

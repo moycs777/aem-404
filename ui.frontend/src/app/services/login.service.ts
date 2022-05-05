@@ -16,6 +16,11 @@ export class LoginService {
 
   setCurrentUser(user: any) {
     localStorage.setItem('compasso.currentUser', JSON.stringify(user));
+    this.setLoginTime();
+  }
+
+  setLoginTime() {
+    localStorage.setItem('compasso.loginTime', JSON.stringify(Math.round(+new Date()/1000)));
   }
 
   logOut() {

@@ -15,9 +15,8 @@ import { finalize, map, take } from 'rxjs/operators';
   styleUrls: ['./home-footer.component.scss']
 })
 export class HomeFooterComponent implements OnInit {
-  @Input() loginUrl: string = '/content/angularapp/us/en/login.html';
+  @Input() loginUrl = '/content/angularapp/us/en/login.html';
   @Input() startAt = 600;
-  
   currentValue: number;
   reset = false;
   currentSubscription: Subscription;

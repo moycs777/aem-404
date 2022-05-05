@@ -8,15 +8,19 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class HomeContainerComponent implements OnInit {
   @Input() logoHeader;
-  @Input() logoBody;
-  @Input() bodyResume;
   @Input() resfreshTime;
   @Input() loginUrl;
-
+  @Input() bodyResume1en;
+  @Input() bodyResume1pt;
+  @Input() bodyResume2en;
+  @Input() bodyResume2pt;
+  @Input() bodyResume3en;
+  @Input() bodyResume3pt;
+  @Input() bodyResume4en;
+  @Input() bodyResume4pt;
   constructor() { }
 
-  ngOnInit(): void {
-  }
+  ngOnInit(): void {  }
 
 }
 MapTo('angularapp/components/home-container')(HomeContainerComponent);

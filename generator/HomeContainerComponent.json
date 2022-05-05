@@ -28,49 +28,106 @@
     ],
     "generic-javadoc": false,
     "properties": [
-        {
-            "field": "logoHeader",
-            "type": "image",
-            "label": "Logo for the header",
-            "json-expose": true
-        },
-        {
-            "field": "logoBody",
-            "type": "image",
-            "label": "Image to serve as body half background",
-            "json-expose": true
-        },
-        {
-            "field": "bodyResume",
-            "description": "Body's text",
-            "javadoc": "Returns a text value tooltip used somewhere in the component",
-            "type": "textfield",
-            "label": "Titulo",
-            "json-expose": true,
-            "attributes": {}
-        }, 
-        {
-            "field": "resfreshTime",
-            "type": "numberfield",
-            "label": "Loggedin session time",
-            "json-expose": true,
-            "attributes": {
-                "max": "{Double}20",
-                "min": "{Double}0",
-                "step": "1",
-                "value": "{Long}20"
-            }
-        },
-        {
-            "field": "loginUrl",
-            "label": "URL for the not logged user",
-            "type": "pagefield",
-            "json-expose": true,
-            "json-property": "url",
-            "attributes": {
-                "rootPath": "/content"
-            }
-        }      
+      {
+        "field": "logoHeader",
+        "type": "image",
+        "label": "Logo for the header",
+        "json-expose": true
+      },          
+      {
+        "field": "resfreshTime",
+        "type": "numberfield",
+        "label": "Loggedin session time",
+        "json-expose": true,
+        "attributes": {
+          "max": "{Double}20",
+          "min": "{Double}0",
+          "step": "1",
+          "value": "{Long}20"
+        }
+      },
+      {
+        "field": "loginUrl",
+        "label": "URL for the not logged user",
+        "type": "pagefield",
+        "json-expose": true,
+        "json-property": "url",
+        "attributes": {
+          "rootPath": "/content"
+        }
+      },
+      {
+        "field": "bodyResume1en",
+        "description": "1st text in english",
+        "javadoc": "Returns a text value tooltip used somewhere in the component",
+        "type": "textfield",
+        "label": "Titulo",
+        "json-expose": true,
+        "attributes": {}
+      },      
+      {
+        "field": "bodyResume1pt",
+        "description": "1ro texto em portugues",
+        "javadoc": "Returns a text value tooltip used somewhere in the component",
+        "type": "textfield",
+        "label": "Titulo",
+        "json-expose": true,
+        "attributes": {}
+      },      
+      {
+        "field": "bodyResume2en",
+        "description": "2nd text in english",
+        "javadoc": "Returns a text value tooltip used somewhere in the component",
+        "type": "textfield",
+        "label": "Titulo",
+        "json-expose": true,
+        "attributes": {}
+      },      
+      {
+        "field": "bodyResume2pt",
+        "description": "2do texto em portugues",
+        "javadoc": "Returns a text value tooltip used somewhere in the component",
+        "type": "textfield",
+        "label": "Titulo",
+        "json-expose": true,
+        "attributes": {}
+      },      
+      {
+        "field": "bodyResume3en",
+        "description": "3rd text in english",
+        "javadoc": "Returns a text value tooltip used somewhere in the component",
+        "type": "textfield",
+        "label": "Titulo",
+        "json-expose": true,
+        "attributes": {}
+      },      
+      {
+        "field": "bodyResume3pt",
+        "description": "3ro texto em portugues",
+        "javadoc": "Returns a text value tooltip used somewhere in the component",
+        "type": "textfield",
+        "label": "Titulo",
+        "json-expose": true,
+        "attributes": {}
+      },      
+      {
+        "field": "bodyResume4en",
+        "description": "4th text in english",
+        "javadoc": "Returns a text value tooltip used somewhere in the component",
+        "type": "textfield",
+        "label": "Titulo",
+        "json-expose": true,
+        "attributes": {}
+      },      
+      {
+        "field": "bodyResume4pt",
+        "description": "4to texto em portugues",
+        "javadoc": "Returns a text value tooltip used somewhere in the component",
+        "type": "textfield",
+        "label": "Titulo",
+        "json-expose": true,
+        "attributes": {}
+      }    
     ]
   }
 }
